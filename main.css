@@ -1,0 +1,43 @@
+    body
+    {
+        font-family: Arial;
+        margin: 20px;
+    }
+
+    .question
+    {
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .pair-row,
+    .group-row
+    {
+        margin: 5px 0;
+    }
+
+    button
+    {
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+        table
+        {
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+    
+        table,
+        th,
+        td
+        {
+            border: 1px solid black;
+        }
+    
+        th,
+        td
+        {
+            padding: 5px 10px;
+        }

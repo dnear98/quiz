@@ -1,0 +1,2927 @@
+[
+        {
+            "id": "q_001",
+            "oldal": 1,
+            "tipus": "sorrend",
+            "kerdes": "Rendezze sorrendbe a feltöltéshez szükséges lépéseket (távoli repo, nincs még klónozva)!",
+            "valaszok": [
+                {
+                    "id": "v_001_1",
+                    "szoveg": "1. A repository klónozása a gépre (clone)",
+                    "helyes": 1
+                },
+                {
+                    "id": "v_001_2",
+                    "szoveg": "2. Az állomány hozzáadása (add)",
+                    "helyes": 2
+                },
+                {
+                    "id": "v_001_3",
+                    "szoveg": "3. A változtatások érvényesítése (commit)",
+                    "helyes": 3
+                },
+                {
+                    "id": "v_001_4",
+                    "szoveg": "4. Feltöltés a távoli repository-ba (push)",
+                    "helyes": 4
+                }
+            ]
+        },
+        {
+            "id": "q_002",
+            "oldal": 1,
+            "tipus": "tobbvalasztos",
+            "kerdes": "Válassza ki a helyes állításokat, amelyek a GitHub repository-ra vonatkoznak!",
+            "valaszok": [
+                {
+                    "id": "v_002_1",
+                    "szoveg": "A repository-ba a már lefordított programot érdemes feltenni.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_002_2",
+                    "szoveg": "A repository-ba a program forráskódját érdemes feltenni.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_002_3",
+                    "szoveg": "A nyilvános repository-ban bárki olvashatja a feltöltött állományokat és mappákat, de feltölteni csak az tud, akinek engedélye van hozzá.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_002_4",
+                    "szoveg": "A nyilvános repository-ban bárki olvashatja a feltöltött állományokat és mappákat, és bárki fel is tud tölteni bejelentkezés nélkül.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_002_5",
+                    "szoveg": "A változtatások érvényesítése (commit) során nem írható megjegyzés.",
+                    "helyes": false
+                }
+            ]
+        },
+{
+    "id": "q_003",
+    "oldal": 1,
+    "tipus": "parositas",
+    "kerdes": "A megadott kijelölőkhöz (szelektorokhoz) melyik példázat tartozik?",
+    "valaszok": [
+        {
+            "id": "v_003_1",
+            "bal": "elem kijelölő",
+            "jobb": "td { meghatározás(ok) }"
+        },
+        {
+            "id": "v_003_2",
+            "bal": "csoportos kijelölő",
+            "jobb": "th, img, span { meghatározás(ok) }"
+        },
+        {
+            "id": "v_003_3",
+            "bal": "azonosító kijelölő",
+            "jobb": "#fejlec { meghatározás(ok) }"
+        },
+        {
+            "id": "v_003_4",
+            "bal": "osztály kijelölő",
+            "jobb": ".red-button { meghatározás(ok) }"
+        }
+    ]
+},
+        {
+            "id": "q_004",
+            "oldal": 1,
+            "tipus": "valasztos",
+            "kerdes": "Képet szeretne elhelyezni egy HTML5 oldalon. Melyik a helyes kivitelezés?",
+            "valaszok": [
+                {
+                    "id": "v_004_1",
+                    "szoveg": "<img source=”kep.png” alt=”Céglogó”>",
+                    "helyes": false
+                },
+                {
+                    "id": "v_004_2",
+                    "szoveg": "<img alt=”Céglogó”> kep.png </img>",
+                    "helyes": false
+                },
+                {
+                    "id": "v_004_3",
+                    "szoveg": "<img href=”kep.png” alt=”Céglogó”>",
+                    "helyes": false
+                },
+                {
+                    "id": "v_004_4",
+                    "szoveg": "<img src=”kep.png” alt=”Céglogó”>",
+                    "helyes": true
+                },
+                {
+                    "id": "v_004_5",
+                    "szoveg": "<img href=”kep.png” alt=”Céglogó”></img>",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_005",
+            "oldal": 1,
+            "tipus": "parositas",
+            "kerdes": "JavaScript nyelvben milyen feladatokat hajtanak végre a megadott nevű függvények? (Math)",
+            "valaszok": [
+                {
+                    "id": "v_005_1",
+                    "bal": "Math.sqrt",
+                    "jobb": "Egy szám négyzetgyökét adja vissza."
+                },
+                {
+                    "id": "v_005_2",
+                    "bal": "Math.pow",
+                    "jobb": "Hatványértéket ad vissza."
+                },
+                {
+                    "id": "v_005_3",
+                    "bal": "Math.round",
+                    "jobb": "A legközelebbi egészre kerekít."
+                },
+                {
+                    "id": "v_005_4",
+                    "bal": "Math.floor",
+                    "jobb": "Lefelé kerekít a legközelebbi egészre."
+                }
+            ]
+        },
+        {
+            "id": "q_006",
+            "oldal": 2,
+            "tipus": "valasztos",
+            "render_as_code":true,
+            "kerdes": "Elemezze a mellékelt JavaScript kódot! Mi az utolsó szám, ami a konzolban kiírásra kerül?\n\nA vizsgált kódrészlet:\n\nfor (let szam = 10; szam > 0; szam--) {\n    if (szam % 2 == 1) {\n        console.log(szam);\n        if (szam % 7 == 0) {\n            szam++;\n            break;\n        }\n    }\n}",
+            "valaszok": [
+                {
+                    "id": "v_006_1",
+                    "szoveg": "9",
+                    "helyes": false
+                },
+                {
+                    "id": "v_006_2",
+                    "szoveg": "7",
+                    "helyes": true
+                },
+                {
+                    "id": "v_006_3",
+                    "szoveg": "8",
+                    "helyes": false
+                },
+                {
+                    "id": "v_006_4",
+                    "szoveg": "1",
+                    "helyes": false
+                },
+                {
+                    "id": "v_006_5",
+                    "szoveg": "Hibás a kód, ezért egyetlen értéket sem ír ki.",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_007",
+            "oldal": 2,
+            "tipus": "valasztos",
+            "kerdes": "Ft (HUF) árfolyam Euró (EUR) értékre alakításához melyik elnevezés a legalkalmasabb a tiszta kód elvei szerint?",
+            "valaszok": [
+                {
+                    "id": "v_007_1",
+                    "szoveg": "dosomethingconvert",
+                    "helyes": false
+                },
+                {
+                    "id": "v_007_2",
+                    "szoveg": "convertHUFToEUR",
+                    "helyes": true
+                },
+                {
+                    "id": "v_007_3",
+                    "szoveg": "átváltforintoteuróba",
+                    "helyes": false
+                },
+                {
+                    "id": "v_007_4",
+                    "szoveg": "convertHUFból",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_008",
+            "oldal": 2,
+            "tipus": "valasztos",
+            "kerdes": "Lista átlagának és minimumának meghatározásához melyik megoldás a legalkalmasabb a tiszta kód szerint?",
+            "valaszok": [
+                {
+                    "id": "v_008_1",
+                    "szoveg": "Külön-külön készít függvényt az átlag kiszámításra és a minimum meghatározására, visszatérési értékkel.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_008_2",
+                    "szoveg": "Egy függvényt készít a két feladatra, globális változóval.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_008_3",
+                    "szoveg": "Egy függvényt készít, amely paraméter alapján dönt a feladatról.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_008_4",
+                    "szoveg": "Külön függvények, de globális változókban adják vissza az értéket.",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_009",
+            "oldal": 3,
+            "tipus": "valasztos",
+            "kerdes": "A Tanulok táblából NÉVSORRENDBEN a 12C osztályos, 4 feletti átlagú tanulók neveit lekérő SQL:",
+            "valaszok": [
+                {
+                    "id": "v_009_1",
+                    "szoveg": "SELECT Nev FROM Tanulok WHERE Osztaly=\"12C\" WHERE Atlag>4 ORDER BY Nev;",
+                    "helyes": false
+                },
+                {
+                    "id": "v_009_2",
+                    "szoveg": "SELECT Nev WHERE Osztaly=\"12C\" AND Atlag>4 ORDER BY Nev FROM Tanulok;",
+                    "helyes": false
+                },
+                {
+                    "id": "v_009_3",
+                    "szoveg": "SELECT Nev FROM Tanulok ORDER BY Nev WHERE Osztaly=\"12C\" AND Atlag>4;",
+                    "helyes": false
+                },
+                {
+                    "id": "v_009_4",
+                    "szoveg": "SELECT Nev FROM Tanulok WHERE Osztaly=\"12C\" AND Atlag>4 ORDER BY Nev;",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_010",
+            "oldal": 3,
+            "tipus": "tobbvalasztos",
+            "kerdes": "Az alábbi mezők közül melyek alkalmasak elsődleges kulcsnak (PRIMARY KEY)?",
+            "valaszok": [
+                {
+                    "id": "v_010_1",
+                    "szoveg": "név",
+                    "helyes": false
+                },
+                {
+                    "id": "v_010_2",
+                    "szoveg": "anyja neve",
+                    "helyes": false
+                },
+                {
+                    "id": "v_010_3",
+                    "szoveg": "személyi igazolvány száma",
+                    "helyes": true
+                },
+                {
+                    "id": "v_010_4",
+                    "szoveg": "lakcím",
+                    "helyes": false
+                },
+                {
+                    "id": "v_010_5",
+                    "szoveg": "oktatási azonosító",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_011",
+            "oldal": 3,
+            "tipus": "valasztos",
+            "kerdes": "Melyik fejlesztői környezet NEM alkalmas natívan mobil alkalmazás fejlesztésére?",
+            "valaszok": [
+                {
+                    "id": "v_011_1",
+                    "szoveg": "MIT App Inventor",
+                    "helyes": false
+                },
+                {
+                    "id": "v_011_2",
+                    "szoveg": "Python",
+                    "helyes": true
+                },
+                {
+                    "id": "v_011_3",
+                    "szoveg": "React Native",
+                    "helyes": false
+                },
+                {
+                    "id": "v_011_4",
+                    "szoveg": "Android Studio",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_012",
+            "oldal": 4,
+            "tipus": "valasztos",
+            "kerdes": "A felsoroltak között melyiket tekintjük frontend JavaScript keretrendszernek?",
+            "valaszok": [
+                {
+                    "id": "v_012_1",
+                    "szoveg": "Express.js",
+                    "helyes": false
+                },
+                {
+                    "id": "v_012_2",
+                    "szoveg": "React Native",
+                    "helyes": false
+                },
+                {
+                    "id": "v_012_3",
+                    "szoveg": "Flutter",
+                    "helyes": false
+                },
+                {
+                    "id": "v_012_4",
+                    "szoveg": "Vue.js",
+                    "helyes": true
+                },
+                {
+                    "id": "v_012_5",
+                    "szoveg": "Xamarin",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_013",
+            "oldal": 4,
+            "tipus": "tobbvalasztos",
+            "kerdes": "Melyik állítás jellemzi az Angular keretrendszert?",
+            "valaszok": [
+                {
+                    "id": "v_013_1",
+                    "szoveg": "Google fejlesztette ki és támogatja.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_013_2",
+                    "szoveg": "TypeScript nyelvet használ.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_013_3",
+                    "szoveg": "Egyirányú adatfolyam, de eseménykezelésnél kétirányú is lehet.",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_014",
+            "oldal": 4,
+            "tipus": "tobbvalasztos",
+            "kerdes": "Melyik állítás jellemzi a React keretrendszert?",
+            "valaszok": [
+                {
+                    "id": "v_014_1",
+                    "szoveg": "Eredetileg a Facebook fejlesztette ki.",
+                    "helyes": true
+                },
+                {
+                    "id": "v_014_2",
+                    "szoveg": "Virtuális DOM-ot használ.",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_015",
+            "oldal": 4,
+            "tipus": "valasztos",
+            "kerdes": "Az alábbiak közül melyik feladat NEM tartozik a Backend fejlesztő tevékenységeihez?",
+            "valaszok": [
+                {
+                    "id": "v_015_1",
+                    "szoveg": "Adatok tárolása, feldolgozása",
+                    "helyes": false
+                },
+                {
+                    "id": "v_015_2",
+                    "szoveg": "A weboldal kinézetének kialakítása",
+                    "helyes": true
+                },
+                {
+                    "id": "v_015_3",
+                    "szoveg": "API-k írása",
+                    "helyes": false
+                },
+                {
+                    "id": "v_015_4",
+                    "szoveg": "Csatlakozás adatbázishoz",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_016",
+            "oldal": 5,
+            "tipus": "valasztos",
+            "kerdes": "Hogyan néz ki a nev: „Minta József” és atlag: 4.5 adat JSON formátumban?",
+            "valaszok": [
+                {
+                    "id": "v_016_1",
+                    "szoveg": "{ ”nev”: ”Minta József”, ”atlag”: 4.5 }",
+                    "helyes": true
+                },
+                {
+                    "id": "v_016_2",
+                    "szoveg": "{ ”Minta József”:”nev”, 4.5:”atlag” }",
+                    "helyes": false
+                },
+                {
+                    "id": "v_016_3",
+                    "szoveg": "{ ”nev”-> ”Minta József”, ”atlag”-> 4.5 }",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_017",
+            "oldal": 5,
+            "tipus": "valasztos",
+            "kerdes": "Melyik OOP alapelv: „Az osztály változóinak értékét csak metódusokon keresztül lehet megváltoztatni.”?",
+            "valaszok": [
+                {
+                    "id": "v_017_1",
+                    "szoveg": "Encapsulation (egységbezárás)",
+                    "helyes": true
+                },
+                {
+                    "id": "v_017_2",
+                    "szoveg": "Inheritance (Öröklés)",
+                    "helyes": false
+                },
+                {
+                    "id": "v_017_3",
+                    "szoveg": "Polymorphism (Sokalakúság)",
+                    "helyes": false
+                }
+            ]
+        },
+{
+    "id": "q_018",
+    "oldal": 5,
+    "tipus": "parositas",
+    "kerdes": "Párosítsa a Java/C# láthatósági kulcsszavakat!",
+    "valaszok": [
+        {
+            "id": "v_018_1",
+            "bal": "private",
+            "jobb": "Csak az osztályon belül érhető el."
+        },
+        {
+            "id": "v_018_2",
+            "bal": "public",
+            "jobb": "Nyilvánosan elérhető mindenki számára."
+        },
+        {
+            "id": "v_018_3",
+            "bal": "protected",
+            "jobb": "Elérhető az osztályon belül és a leszármazottaknak."
+        }
+    ]
+},
+        {
+            "id": "q_019",
+            "oldal": 6,
+            "tipus": "valasztos",
+            "kerdes": "Melyik állítás igaz a CMS (tartalomkezelő) rendszerekre?",
+            "valaszok": [
+                {
+                    "id": "v_019_1",
+                    "szoveg": "Nem létezik ingyenes változata.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_019_2",
+                    "szoveg": "Nem rendelkeznek adminisztrációs felülettel.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_019_3",
+                    "szoveg": "Csak programozóknak könnyíti meg a munkát.",
+                    "helyes": false
+                },
+                {
+                    "id": "v_019_4",
+                    "szoveg": "Kevés informatikai képzettséggel is tölthető fel rá tartalom.",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_020",
+            "oldal": 6,
+            "tipus": "valasztos",
+            "kerdes": "UNIT tesztelésnél az AAA minta melyik szakaszában történik az input adatok előkészítése?",
+            "valaszok": [
+                {
+                    "id": "v_020_1",
+                    "szoveg": "Alert",
+                    "helyes": false
+                },
+                {
+                    "id": "v_020_2",
+                    "szoveg": "Act",
+                    "helyes": false
+                },
+                {
+                    "id": "v_020_3",
+                    "szoveg": "Arrange",
+                    "helyes": true
+                },
+                {
+                    "id": "v_020_4",
+                    "szoveg": "Assert",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_021",
+            "oldal": 6,
+            "tipus": "valasztos",
+            "kerdes": "Melyik teszt tartozik a tesztpiramis középső (piros kérdőjeles) szintjéhez?",
+            "valaszok": [
+                {
+                    "id": "v_021_1",
+                    "szoveg": "Unit Tests",
+                    "helyes": false
+                },
+                {
+                    "id": "v_021_2",
+                    "szoveg": "Component Tests",
+                    "helyes": false
+                },
+                {
+                    "id": "v_021_3",
+                    "szoveg": "API Tests",
+                    "helyes": false
+                },
+                {
+                    "id": "v_021_4",
+                    "szoveg": "Functional Tests",
+                    "helyes": false
+                },
+                {
+                    "id": "v_021_5",
+                    "szoveg": "Integration Test",
+                    "helyes": true
+                }
+            ]
+        },
+        {
+            "id": "q_022",
+            "oldal": 7,
+            "tipus": "tobbvalasztos",
+            "kerdes": "Mely GitHub műveletekhez SZÜKSÉGES bejelentkezés egy publikus repo esetén?",
+            "valaszok": [
+                {
+                    "id": "v_022_1",
+                    "szoveg": "Feltöltés a repository-ba (push)",
+                    "helyes": true
+                },
+                {
+                    "id": "v_022_2",
+                    "szoveg": "Változtatások érvényesítése (commit)",
+                    "helyes": true
+                },
+                {
+                    "id": "v_022_3",
+                    "szoveg": "Repository klónozása (clone)",
+                    "helyes": false
+                },
+                {
+                    "id": "v_022_4",
+                    "szoveg": "Állományok olvasása",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_023",
+            "oldal": 7,
+            "tipus": "valasztos",
+            "kerdes": "Szeretnénk a GitHub-on a „Bug fix” megjegyzést látni a változtatásnál. Melyik a helyes?",
+            "valaszok": [
+                {
+                    "id": "v_023_1",
+                    "szoveg": "git push -m ”Bug fix”",
+                    "helyes": false
+                },
+                {
+                    "id": "v_023_2",
+                    "szoveg": "git message ”Bug fix”",
+                    "helyes": false
+                },
+                {
+                    "id": "v_023_3",
+                    "szoveg": "git commit -m ”Bug fix”",
+                    "helyes": true
+                },
+                {
+                    "id": "v_023_4",
+                    "szoveg": "git add -m ”Bug fix”",
+                    "helyes": false
+                }
+            ]
+        },
+{
+    "id": "q_024",
+    "oldal": 7,
+    "tipus": "parositas",
+    "kerdes": "Párosítsa a CSS RGB() értékeket a színekkel!",
+    "valaszok": [
+        {
+            "id": "v_024_1",
+            "bal": "RGB(100%, 0, 0)",
+            "jobb": "piros"
+        },
+        {
+            "id": "v_024_2",
+            "bal": "RGB(0, 255, 0)",
+            "jobb": "zöld"
+        },
+        {
+            "id": "v_024_3",
+            "bal": "RGB(255, 255, 255)",
+            "jobb": "fehér"
+        },
+        {
+            "id": "v_024_4",
+            "bal": "RGB(0, 0, 0)",
+            "jobb": "fekete"
+        }
+    ]
+},
+{
+    "id": "q_025",
+    "oldal": 8,
+    "tipus": "tobbvalasztos",
+    "render_html": true,
+    "kerdes": "Mely HTML tag-ek kerültek alkalmazásra a mintatáblázatban? (3 jó válasz)<br><br>Minta a táblázatból:<br><table><caption>Szoftverfejlesztők eszközei</caption><tr><th>Nyelv</th><th>Verzió</th></tr><tr><td colspan=\"2\">CSS 3</td></tr></table>",
+    "valaszok": [
+        {
+            "id": "v_025_1",
+            "szoveg": "<title></title>",
+            "helyes": false
+        },
+        {
+            "id": "v_025_2",
+            "szoveg": "<caption></caption>",
+            "helyes": true
+        },
+        {
+            "id": "v_025_3",
+            "szoveg": "<th></th>",
+            "helyes": true
+        },
+        {
+            "id": "v_025_4",
+            "szoveg": "<td></td>",
+            "helyes": false
+        },
+        {
+            "id": "v_025_5",
+            "szoveg": "<td colspan=\"2\"></td>",
+            "helyes": true
+        }
+    ]
+},
+        {
+            "id": "q_026",
+            "oldal": 8,
+            "tipus": "parositas",
+            "render_as_code":true,
+            "kerdes": "Tanulmányozza a mellékelt JavaScript kódot! Milyen értékeket írnak ki a konzolra a megadott sorszámú sorok?\n\nA vizsgált kódrészlet:\n\n1  let ora = \"Du.12\";\n2  const perc = 30;\n3  console.log(ora + \":\" + perc);\n4\n5  function UjIdopont(perc) {\n6      ora = 13;\n7      console.log(ora + \":\" + perc);\n8  }\n9\n10 UjIdopont(20);\n11 console.log(ora + \":\" + perc);",
+            "valaszok": [
+                {
+                    "id": "v_026_1",
+                    "bal": "3. sor",
+                    "jobb": "Du.12:30"
+                },
+                {
+                    "id": "v_026_2",
+                    "bal": "7. sor",
+                    "jobb": "13:20"
+                },
+                {
+                    "id": "v_026_3",
+                    "bal": "11. sor",
+                    "jobb": "13:30"
+                }
+            ]
+        },
+        {
+            "id": "q_027",
+            "oldal": 9,
+            "tipus": "valasztos",
+            "kerdes": "Melyik a helyes JavaScript kód egy FEROHELY nevű konstans megadásához (értéke: 150)?",
+            "valaszok": [
+                {
+                    "id": "v_027_1",
+                    "szoveg": "let constant FEROHELY = 150;",
+                    "helyes": false
+                },
+                {
+                    "id": "v_027_2",
+                    "szoveg": "const FEROHELY = 150;",
+                    "helyes": true
+                },
+                {
+                    "id": "v_027_3",
+                    "szoveg": "const FEROHELY; FEROHELY = 150;",
+                    "helyes": false
+                }
+            ]
+        },
+        {
+            "id": "q_028",
+            "oldal": 9,
+            "tipus": "valasztos",
+            "kerdes": "Melyik metódus felel meg leginkább a tiszta kódnak egy tanuló listához adásához?",
+            "valaszok": [
+                {
+                    "id": "v_028_1",
+                    "szoveg": "private void AddStudent(Student student) {…};",
+                    "helyes": true
+                },
+                {
+                    "id": "v_028_2",
+                    "szoveg": "private void AddStudent(string name, string class, double average){…};",
+                    "helyes": false
+                }
+            ]
+        },
+{
+    "id": "q_029",
+    "oldal": 9,
+    "tipus": "tobbvalasztos",
+    "render_as_code": true,
+    "kerdes": "Jelölje be, hogy az itt látható kódban melyek azok a sorok, amelyek nem felelnek meg a tiszta kód előírásának!\n\nA vizsgált kódrészlet:\n\n1  int firstDay = measurements[0];\n2  int x = measurements[15]; //x means the 15th day of the measurement\n3  int lastDay = measurements[29];\n4  int difference = (lastDay - firstDay);\n5  //double average = (x - firstDay) / 2\n6  if (difference < Limits.LowerLimit)\n7  //TODO write the warning messages",
+    "valaszok": [
+        {
+            "id": "v_029_1",
+            "szoveg": "1. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_029_2",
+            "szoveg": "2. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_029_3",
+            "szoveg": "3. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_029_4",
+            "szoveg": "4. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_029_5",
+            "szoveg": "5. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_029_6",
+            "szoveg": "6. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_029_7",
+            "szoveg": "7. sor",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_030",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "render_as_code": true,
+    "kerdes": "Melyik SQL lekérdezéssel lehet a 9. évfolyamos tanulók átlagát kiszámolni?\n\nA Tanulo tábla szerkezete:\n- Nev: varchar(50)\n- oszt: varchar(5) (pl. \"12.C\")\n- atlag: double\n\nA cél: csak azoknak a tanulóknak az átlagát számoljuk, akiknek osztálya \"9.\"-tel kezdődik.",
+    "valaszok": [
+        {
+            "id": "v_030_1",
+            "szoveg": "SELECT AVG(atlag)\nFROM Tanulo\nWHERE oszt=\"9%\";",
+            "helyes": false
+        },
+        {
+            "id": "v_030_2",
+            "szoveg": "SELECT AVERAGE(atlag)\nFROM Tanulo\nWHERE oszt=\"9%\";",
+            "helyes": false
+        },
+        {
+            "id": "v_030_3",
+            "szoveg": "SELECT AVG(atlag)\nFROM Tanulo\nWHERE oszt LIKE \"9%\";",
+            "helyes": true
+        },
+        {
+            "id": "v_030_4",
+            "szoveg": "SELECT AVERAGE(atlag)\nFROM Tanulo\nWHERE oszt LIKE \"9%\";",
+            "helyes": false
+        }
+    ]
+},
+            {
+                "id": "q_031",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "render_as_code":true,
+                "kerdes": "Adott az alábbi Auto, Kolcsonzes és Szemely tábla. Mi történik, ha a Kolcsonzes táblába olyan autoId kerül, amely nem létezik az Auto táblában?\n\nA táblák szerkezete:\n\nSzemely\n- szig: varchar(8)\n- nev: varchar(40)\n- cim: varchar(50)\n\nKolcsonzes\n- id: int\n- szemelyId: varchar(8)\n- autoId: int\n- kolcsonzesKezdete: date\n- kolcsonzesVege: date\n\nAuto\n- id: int\n- tipus: varchar(20)\n- evjarat: int",
+                "valaszok": [
+                    {
+                        "id": "v_031_1",
+                        "szoveg": "Az értéket sikerül beszúrni, de csak akkor, ha nincsen idegen kulcsként beállítva a Kolcsonzes tábla autoId mezője.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_031_2",
+                        "szoveg": "Az érték sikeresen bekerül a táblába függetlenül minden beállítástól.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_031_3",
+                        "szoveg": "Hibaüzenetet kapunk, és az érték nem kerül bele a táblába függetlenül bármilyen beállítástól.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_031_4",
+                        "szoveg": "Az érték bekerül a táblába, és azzal együtt bekerül az Auto táblába is új értékként.",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_032",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Mely állítás igaz a mobil alkalmazások fejlesztésére?",
+                "valaszok": [
+                    {
+                        "id": "v_032_1",
+                        "szoveg": "Csak Google Play publikálás után tesztelhető.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_032_2",
+                        "szoveg": "Nem lehet multiplatform fejleszteni.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_032_3",
+                        "szoveg": "Csak telefonon tesztelhető.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_032_4",
+                        "szoveg": "Emulátoron is tesztelhető.",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_033",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Melyik NEM JavaScript keretrendszer?",
+                "valaszok": [
+                    {
+                        "id": "v_033_1",
+                        "szoveg": "Angular",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_033_2",
+                        "szoveg": "React",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_033_3",
+                        "szoveg": "Ember",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_033_4",
+                        "szoveg": "Vue",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_033_5",
+                        "szoveg": "Xamarin",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_034",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "JSON karakterláncból hogyan készíthetünk objektumot JavaScriptben?",
+                "valaszok": [
+                    {
+                        "id": "v_034_1",
+                        "szoveg": "parse",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_034_2",
+                        "szoveg": "convert",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_034_3",
+                        "szoveg": "Object",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_034_4",
+                        "szoveg": "stringify",
+                        "helyes": false
+                    }
+                ]
+            },{
+                "id": "q_061",
+                "oldal": 11,
+                "tipus": "tobbvalasztos",
+                "render_as_code": true,
+                "kerdes": "Jelölje be, hogy az itt látható JSON kódban melyek azok a sorok, amelyek hibásak!\n\nA vizsgált kódrészlet:\n\n1  {\n2      \"Name\" {\n3          \"firstName\": \"John\",\n4          \"lastName\": \"Doe\"\n5      },\n6      \"Occupation\": \"Teacher\",\n7      YearOfBirth: 1990\n8  }",
+                "valaszok": [
+                    {
+                        "id": "v_061_1",
+                        "szoveg": "1. sor",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_061_2",
+                        "szoveg": "2. sor",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_061_3",
+                        "szoveg": "3. sor",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_061_4",
+                        "szoveg": "4. sor",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_061_5",
+                        "szoveg": "5. sor",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_061_6",
+                        "szoveg": "6. sor",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_061_7",
+                        "szoveg": "7. sor",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_061_8",
+                        "szoveg": "8. sor",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_035",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Melyik NEM HTTP kérés metódus?",
+                "valaszok": [
+                    {
+                        "id": "v_035_1",
+                        "szoveg": "GET",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_035_2",
+                        "szoveg": "BODY",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_035_3",
+                        "szoveg": "POST",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_035_4",
+                        "szoveg": "PUT",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_036",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Melyik állítás HAMIS a konstruktorokra?",
+                "valaszok": [
+                    {
+                        "id": "v_036_1",
+                        "szoveg": "Nevük megegyezik az osztály nevével.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_036_2",
+                        "szoveg": "Ha nincs deklarált konstruktor, létrejön egy alapértelmezett.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_036_3",
+                        "szoveg": "Nem lehet visszatérési típusa.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_036_4",
+                        "szoveg": "Csak akkor lehet több konstruktor, ha van paraméter nélküli is.",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_037",
+                "oldal": 10,
+                "tipus": "tobbvalasztos",
+                "kerdes": "Mely állítások igazak a statikus metódusokra?",
+                "valaszok": [
+                    {
+                        "id": "v_037_1",
+                        "szoveg": "STATIC kulcsszóval jelölik.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_037_2",
+                        "szoveg": "Az osztály nevével hívjuk meg.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_037_3",
+                        "szoveg": "Hivatkozhat példányváltozókra.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_037_4",
+                        "szoveg": "Csak osztályváltozókhoz fér hozzá.",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_038",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Mi a legjobb megoldás híroldal készítésére több szerzővel?",
+                "valaszok": [
+                    {
+                        "id": "v_038_1",
+                        "szoveg": "CMS rendszer használata és hozzáférés adása.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_038_2",
+                        "szoveg": "CMS, de e-mailben küldik a cikkeket.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_038_3",
+                        "szoveg": "CMS nélkül, e-mail küldéssel.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_038_4",
+                        "szoveg": "CMS nélkül oktatással.",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_039",
+                "oldal": 10,
+                "tipus": "tobbvalasztos",
+                "kerdes": "Mely állítás igaz a TDD módszerre?",
+                "valaszok": [
+                    {
+                        "id": "v_039_1",
+                        "szoveg": "Iteratív fejlesztési módszer.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_039_2",
+                        "szoveg": "Hosszú tervezési fázis előzi meg.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_039_3",
+                        "szoveg": "Jól alkalmazkodik változó követelményekhez.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_039_4",
+                        "szoveg": "Rugalmatlan módszer.",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_040",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Melyik állítás hamis a mocking technikára?",
+                "valaszok": [
+                    {
+                        "id": "v_040_1",
+                        "szoveg": "Előre definiált válaszokat ad.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_040_2",
+                        "szoveg": "Segíti a komponensek izolálását.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_040_3",
+                        "szoveg": "Gyorsabb teszteket tesz lehetővé.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_040_4",
+                        "szoveg": "Nem lehet hibákat szimulálni.",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_041",
+                "oldal": 10,
+                "tipus": "valasztos",
+                "kerdes": "Mit kell tenni, ha push előtt más már frissítette a repository-t?",
+                "valaszok": [
+                    {
+                        "id": "v_041_1",
+                        "szoveg": "Repository törlése és újraklónozása.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_041_2",
+                        "szoveg": "git pull használata.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_041_3",
+                        "szoveg": "git commit használata.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_041_4",
+                        "szoveg": "Engedélyt kérni.",
+                        "helyes": false
+                    }
+                ]
+            },
+            {
+                "id": "q_042",
+                "oldal": 10,
+                "tipus": "tobbvalasztos",
+                "kerdes": "Mely állítások igazak publikus GitHub repository-ra?",
+                "valaszok": [
+                    {
+                        "id": "v_042_1",
+                        "szoveg": "Csak az utolsó változtatás látszik.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_042_2",
+                        "szoveg": "Minden változtatás követhető.",
+                        "helyes": true
+                    },
+                    {
+                        "id": "v_042_3",
+                        "szoveg": "Bárki írhat bele bejelentkezés nélkül.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_042_4",
+                        "szoveg": "A commitnál látszik a felhasználó neve.",
+                        "helyes": true
+                    }
+                ]
+            },
+{
+    "id": "q_043",
+    "oldal": 7,
+    "tipus": "parositas",
+    "kerdes": "Párosítsa a HTML tag-eket a megfelelő jelentésével!\n\nA vizsgált elemek:\n<p>, <span>, <ul>, <ol>",
+    "valaszok": [
+        {
+            "id": "v_043_1",
+            "bal": "<p>",
+            "jobb": "bekezdés létrehozása"
+        },
+        {
+            "id": "v_043_2",
+            "bal": "<span>",
+            "jobb": "dokumentumrész kijelölése"
+        },
+        {
+            "id": "v_043_3",
+            "bal": "<ul>",
+            "jobb": "számozatlan (rendezetlen) felsorolás"
+        },
+        {
+            "id": "v_043_4",
+            "bal": "<ol>",
+            "jobb": "számozott (rendezett) felsorolás"
+        }
+    ]
+},
+{
+    "id": "q_044",
+    "oldal": 7,
+    "tipus": "valasztos",
+    "kerdes": "Legyen adva a „sample” azonosítójú elem. Az alábbiak közül melyikkel tudunk hivatkozni a sample azonosítójú elemen belül az összes bekezdésre (p) CSS-en belül?",
+    "valaszok": [
+        {
+            "id": "v_044_1",
+            "szoveg": "div.sample",
+            "helyes": false
+        },
+        {
+            "id": "v_044_2",
+            "szoveg": ".sample div",
+            "helyes": false
+        },
+        {
+            "id": "v_044_3",
+            "szoveg": "#sample div",
+            "helyes": true
+        },
+        {
+            "id": "v_044_4",
+            "szoveg": "div#sample",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_045",
+    "oldal": 7,
+    "tipus": "tobbvalasztos",
+    "render_as_code": true,
+    "kerdes": "Jelölje be, hogy az alábbi kódban melyik sorokban van szintaktikai vagy szemantikai hiba!\n\nA vizsgált kódrészlet:\n\n1  const minValue = 5;\n2  let maxValue = 10;\n3  for (let i = minValue; i <= maxValue; i++)\n4      console.log(i ** 2);\n5  minValue = 1;\n6  maxvalue = 10;\n7  for (let i = minValue; i <= maxValue; i++)\n8      console.log(sqrt(i));",
+    "valaszok": [
+        {
+            "id": "v_045_1",
+            "szoveg": "1. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_045_2",
+            "szoveg": "2. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_045_3",
+            "szoveg": "3. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_045_4",
+            "szoveg": "4. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_045_5",
+            "szoveg": "5. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_045_6",
+            "szoveg": "6. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_045_7",
+            "szoveg": "7. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_045_8",
+            "szoveg": "8. sor",
+            "helyes": true
+        }
+    ]
+},
+{
+    "id": "q_046",
+    "oldal": 7,
+    "tipus": "valasztos",
+    "kerdes": "Adott az „arraySize” azonosítójú number típusú beviteli mező a HTML kódban. Az alábbiak közül melyikkel lehet kiolvasni ebből a mezőből a beírt értéket?",
+    "valaszok": [
+        {
+            "id": "v_046_1",
+            "szoveg": "document.getElementById(\"arraySize\").value",
+            "helyes": true
+        },
+        {
+            "id": "v_046_2",
+            "szoveg": "document.querySelector(\"#arraySize\")",
+            "helyes": false
+        },
+        {
+            "id": "v_046_3",
+            "szoveg": "document.getElementById(\"arraySize\")",
+            "helyes": false
+        },
+        {
+            "id": "v_046_4",
+            "szoveg": "document.getElementById(\"arraysize\").number.value",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_047",
+    "oldal": 7,
+    "tipus": "valasztos",
+    "kerdes": "Nemzetközi csapatban dolgozik, és olyan property-t szeretne készíteni, amely lekérdezi a dolgozók átlagfizetését. A tiszta kód elveinek melyik azonosító felel meg leginkább?",
+    "valaszok": [
+        {
+            "id": "v_047_1",
+            "szoveg": "átlagFizetés",
+            "helyes": false
+        },
+        {
+            "id": "v_047_2",
+            "szoveg": "getAverageSalary",
+            "helyes": true
+        },
+        {
+            "id": "v_047_3",
+            "szoveg": "avgsal //This method gets the average salary",
+            "helyes": false
+        },
+        {
+            "id": "v_047_4",
+            "szoveg": "Average",
+            "helyes": false
+        }
+    ]
+},
+            {
+                "id": "q_048",
+                "oldal": 8,
+                "tipus": "valasztos",
+                "kerdes": "A programban több alkalommal szeretné a tömb páros elemeinek átlagát kiszámítani. A tiszta kód elveit figyelembe véve melyik megoldás a legcélszerűbb?",
+                "valaszok": [
+                    {
+                        "id": "v_048_1",
+                        "szoveg": "A program egy részén megírja a kódot, és minden alkalommal lemásolja, majd átírja a tömb nevét a kódban.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_048_2",
+                        "szoveg": "Minden egyes alkalommal külön függvényt készít, amely csak az adott helyen lévő tömb elemeire működik.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_048_3",
+                        "szoveg": "Eljárást készít, amely paraméterében megkapja a tömböt, majd kimenő paraméterben adja vissza a páros számok átlagát, és minden alkalommal ezt az eljárást hívjuk meg.",
+                        "helyes": false
+                    },
+                    {
+                        "id": "v_048_4",
+                        "szoveg": "Függvényt készít, amely paraméterében megkapja a tömböt, majd visszaadja a páros számok átlagát, és minden alkalommal ezt a függvényt hívjuk meg.",
+                        "helyes": true
+                    }
+                ]
+            },
+            {
+                "id": "q_049",
+                "oldal": 8,
+                "tipus": "parositas",
+                "kerdes": "Párosítsa az alábbi SQL utasításokat a megfelelő jelentésével!",
+                "valaszok": [
+                    {
+                        "id": "v_049_1",
+                        "bal": "DELETE",
+                        "jobb": "A táblában lévő adatok törlése."
+                    },
+                    {
+                        "id": "v_049_2",
+                        "bal": "DROP TABLE",
+                        "jobb": "A tábla szerkezetének törlése."
+                    },
+                    {
+                        "id": "v_049_3",
+                        "bal": "ALTER TABLE",
+                        "jobb": "A tábla szerkezetének módosítása."
+                    },
+                    {
+                        "id": "v_049_4",
+                        "bal": "UPDATE",
+                        "jobb": "A táblában lévő adatok módosítása."
+                    }
+                ]
+            },
+
+{
+    "id": "q_050b",
+    "oldal": 8,
+    "tipus": "parositas",
+    "kerdes": "Egészítse ki a mondatokat!\n\nHa „table1” össze van kapcsolva a „table2” táblával, akkor a „table2” azon mezőjét, amely „table1” elsődleges kulcsára hivatkozik úgy hívjuk, hogy {1}. A „table2” tábla idegen kulcs mező értékeinek {2} egyedinek kell lenni. Azt a törlést, amikor a „table1” egyik rekordjának törlése esetén a „table2” táblában az erre hivatkozott rekordok is törlődnek úgy hívjuk, hogy {3}. Az elsődleges kulcs értéke {4}.",
+    "valaszok": [
+        {
+            "id": "v_050b_1",
+            "bal": "{1}",
+            "jobb": "idegen kulcs"
+        },
+        {
+            "id": "v_050b_2",
+            "bal": "{2}",
+            "jobb": "nem minden esetben"
+        },
+        {
+            "id": "v_050b_3",
+            "bal": "{3}",
+            "jobb": "kaszkádolt törlés"
+        },
+        {
+            "id": "v_050b_4",
+            "bal": "{4}",
+            "jobb": "nem lehet null"
+        }
+    ]
+},
+{
+    "id": "q_051",
+    "oldal": 9,
+    "tipus": "valasztos",
+    "kerdes": "Mely állítás igaz a mobil alkalmazások fejlesztésére?",
+    "valaszok": [
+        {
+            "id": "v_051_1",
+            "szoveg": "A .NET keretrendszerben egyáltalán nincs lehetőség mobil alkalmazások fejlesztésére.",
+            "helyes": false
+        },
+        {
+            "id": "v_051_2",
+            "szoveg": "A PC-re megírt alkalmazások minden esetben külön fejlesztés nélkül átfordítható Android vagy iOS alkalmazásra.",
+            "helyes": false
+        },
+        {
+            "id": "v_051_3",
+            "szoveg": "Nem lehetséges egyszerre fejleszteni Android és iOS alkalmazást, ezekhez minden esetben teljesen önálló fejlesztői környezet szükséges.",
+            "helyes": false
+        },
+        {
+            "id": "v_051_4",
+            "szoveg": "Android alkalmazás fejlesztése közben tesztelni lehet az alkalmazást anélkül, hogy felkerüljön a Google Play áruházba.",
+            "helyes": true
+        }
+    ]
+},
+{
+    "id": "q_052",
+    "oldal": 9,
+    "tipus": "valasztos",
+    "kerdes": "Az alábbiak közül melyik függvénnyel lehetséges API kérést tenni JavaScript-ben?",
+    "valaszok": [
+        {
+            "id": "v_052_1",
+            "szoveg": "fetch(\"URL\")",
+            "helyes": true
+        },
+        {
+            "id": "v_052_2",
+            "szoveg": "get(\"URL\")",
+            "helyes": false
+        },
+        {
+            "id": "v_052_3",
+            "szoveg": "request(\"URL\")",
+            "helyes": false
+        },
+        {
+            "id": "v_052_4",
+            "szoveg": "post(\"URL\")",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_053",
+    "oldal": 9,
+    "tipus": "csoportositas",
+    "kerdes": "Csoportosítsa az alábbi elemeket aszerint, hogy melyek tartoznak, illetve melyek nem tartoznak a Frontend fejlesztő feladatai közé!",
+    "csoportok": [
+        {
+            "id": "c_053_1",
+            "nev": "Frontend fejlesztő feladata"
+        },
+        {
+            "id": "c_053_2",
+            "nev": "Nem a Frontend fejlesztő feladata"
+        }
+    ],
+    "valaszok": [
+        {
+            "id": "v_053_1",
+            "szoveg": "Weblap kinézetének tervezése, kivitelezése",
+            "csoport": "c_053_1"
+        },
+        {
+            "id": "v_053_2",
+            "szoveg": "API kérések segítségével adatok lekérése",
+            "csoport": "c_053_1"
+        },
+        {
+            "id": "v_053_3",
+            "szoveg": "Weblapok reszponzívvá tétele",
+            "csoport": "c_053_1"
+        },
+        {
+            "id": "v_053_4",
+            "szoveg": "Adatbázishoz csatlakozás, lekérdezések",
+            "csoport": "c_053_2"
+        },
+        {
+            "id": "v_053_5",
+            "szoveg": "Adatok szerializálása JSON formátumra",
+            "csoport": "c_053_2"
+        },
+        {
+            "id": "v_053_6",
+            "szoveg": "Adatmodellek létrehozása",
+            "csoport": "c_053_2"
+        }
+    ]
+},
+{
+    "id": "q_054",
+    "oldal": 9,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Az alábbi fogalmak közül melyek köthetők a Backend fejlesztéshez? Jelölje meg a helyes válaszokat!",
+    "valaszok": [
+        {
+            "id": "v_054_1",
+            "szoveg": "Model",
+            "helyes": true
+        },
+        {
+            "id": "v_054_2",
+            "szoveg": "Reszponzivitás",
+            "helyes": false
+        },
+        {
+            "id": "v_054_3",
+            "szoveg": "Stíluslapok",
+            "helyes": false
+        },
+        {
+            "id": "v_054_4",
+            "szoveg": "REST API",
+            "helyes": true
+        },
+        {
+            "id": "v_054_5",
+            "szoveg": "Eseménykezelés",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_055",
+    "oldal": 9,
+    "tipus": "valasztos",
+    "render_as_code": true,
+    "kerdes": "Adott az alábbi JSON kód. Szeretnénk a „zipCode” és a „city” mezőket egy közös „address” azonosítójú mező alá helyezni. Hogyan lehet ezt megtenni?\n\nA vizsgált kódrészlet:\n\n1  {\n2    \"studentName\": \"John Doe\",\n3    \"gradeAverage\": 4.5,\n4    \"studentClass\": \"12/H\",\n5    \"zipCode\": 1100,\n6    \"city\": \"Budapest\"\n7  }",
+    "valaszok": [
+        {
+            "id": "v_055_1",
+            "szoveg": "address\n{\n  \"zipCode\": 1100,\n  \"city\": \"Budapest\"\n}",
+            "helyes": false
+        },
+        {
+            "id": "v_055_2",
+            "szoveg": "address: {\n  \"zipCode\": 1100,\n  \"city\": \"Budapest\"\n}",
+            "helyes": false
+        },
+        {
+            "id": "v_055_3",
+            "szoveg": "address\n\"zipCode\": 1100,\n\"city\": \"Budapest\"",
+            "helyes": false
+        },
+        {
+            "id": "v_055_4",
+            "szoveg": "...\n\"address\": {\n  \"zipCode\": 1100,\n  \"city\": \"Budapest\"\n}\n...",
+            "helyes": true
+        }
+    ]
+},
+{
+    "id": "q_056",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "kerdes": "Hogy nevezzük azt a módszert, amikor az osztályban egy metódust ugyanazzal a névvel különbözőképpen paraméterezünk?",
+    "valaszok": [
+        {
+            "id": "v_056_1",
+            "szoveg": "Polimorfizmus",
+            "helyes": false
+        },
+        {
+            "id": "v_056_2",
+            "szoveg": "Dinamikus metódusok",
+            "helyes": false
+        },
+        {
+            "id": "v_056_3",
+            "szoveg": "Túlterhelés",
+            "helyes": true
+        },
+        {
+            "id": "v_056_4",
+            "szoveg": "Statikus metódusok",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_057",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "kerdes": "Szeretnénk, hogy egy metódust csak az adott osztályon belül lehessen közvetlenül elérni, más objektumokban, osztályokban nem. Melyik módosítót kell ilyenkor elé írni?",
+    "valaszok": [
+        {
+            "id": "v_057_1",
+            "szoveg": "protected",
+            "helyes": false
+        },
+        {
+            "id": "v_057_2",
+            "szoveg": "private",
+            "helyes": true
+        },
+        {
+            "id": "v_057_3",
+            "szoveg": "public",
+            "helyes": false
+        },
+        {
+            "id": "v_057_4",
+            "szoveg": "static",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_058",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "kerdes": "Melyik állítás igaz a CMS (tartalomkezelő) rendszerekre?",
+    "valaszok": [
+        {
+            "id": "v_058_1",
+            "szoveg": "Adatbázishoz egyáltalán nem tud csatlakozni, csak statikus weboldalakat tud létrehozni.",
+            "helyes": false
+        },
+        {
+            "id": "v_058_2",
+            "szoveg": "Képes felhasználókat kezelni különféle jogosultságokkal.",
+            "helyes": true
+        },
+        {
+            "id": "v_058_3",
+            "szoveg": "Az adminisztrációs felület böngészőből nem elérhető, minden esetben külön alkalmazást kell feltelepíteni hozzá.",
+            "helyes": false
+        },
+        {
+            "id": "v_058_4",
+            "szoveg": "A weboldalon lévő cikkeket csak manuálisan, HTML kódban lehet beírni.",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_059",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "kerdes": "Hogy hívják azt a tesztelési módszert, amely a különféle modulok között összes illesztés hibáit keres?",
+    "valaszok": [
+        {
+            "id": "v_059_1",
+            "szoveg": "Integrációs teszt",
+            "helyes": true
+        },
+        {
+            "id": "v_059_2",
+            "szoveg": "Modul teszt",
+            "helyes": false
+        },
+        {
+            "id": "v_059_3",
+            "szoveg": "Rendszer teszt",
+            "helyes": false
+        },
+        {
+            "id": "v_059_4",
+            "szoveg": "Unit teszt",
+            "helyes": false
+        }
+    ]
+},
+{
+    "id": "q_060",
+    "oldal": 10,
+    "tipus": "valasztos",
+    "kerdes": "Mely állítás igaz a Unit tesztelésre?",
+    "valaszok": [
+        {
+            "id": "v_060_1",
+            "szoveg": "Az egységeket egymástól függetlenül, önállóan teszteljük.",
+            "helyes": true
+        },
+        {
+            "id": "v_060_2",
+            "szoveg": "Az egységek közötti együttműködéseket teszteljük itt.",
+            "helyes": false
+        },
+        {
+            "id": "v_060_3",
+            "szoveg": "Nem lehet automatizálni, csak manuális tesztet lehet végezni.",
+            "helyes": false
+        },
+        {
+            "id": "v_060_4",
+            "szoveg": "A fejlesztői környezetek nem támogatják ezt, mindig külön programot kell használni a Unit test-hez.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_061",
+    "oldal": 11,
+    "tipus": "valasztos",
+    "kerdes": "Adott egy távoli GitHub repository, amelyen a számítógépén szeretne dolgozni, de még nincs letöltve a gépre. Melyik módszerrel lehet a legegyszerűbben a legfrissebb verziót letölteni?",
+    "valaszok": [
+        {
+            "id": "v_061_1",
+            "szoveg": "A repository állományainak letöltése után egy futtatható állományt kapunk, amellyel hozzá lehet férni.",
+            "helyes": false
+        },
+        {
+            "id": "v_061_2",
+            "szoveg": "A repository klónozása (git clone utasítás)",
+            "helyes": true
+        },
+        {
+            "id": "v_061_3",
+            "szoveg": "Csak a böngészőn keresztül lehet hozzáférni a repository-hoz, más módszerrel nem.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_062",
+    "oldal": 11,
+    "tipus": "parositas",
+    "kerdes": "Egészítse ki a mondatokat!\n\nA privát Repository-ban {1} lehet az ott lévő tartalmat olvasni. Ebbe a repository-ba {2} tudnak állományt feltölteni vagy módosítani.",
+    "valaszok": [
+        {
+            "id": "v_062_1",
+            "bal": "{1}",
+            "jobb": "csak bejelentkezés után"
+        },
+        {
+            "id": "v_062_2",
+            "bal": "{2}",
+            "jobb": "a tulajdonos és az együttműködésre meghívottak is"
+        }
+    ]
+},{
+    "id": "q_063",
+    "oldal": 11,
+    "tipus": "csoportositas",
+    "kerdes": "Csoportosítsa az alábbi tag-eket vagy formázásokat aszerint, hogy a HTML vagy CSS-hez tartoznak!",
+    "csoportok": [
+        {
+            "id": "c_063_1",
+            "nev": "HTML tag"
+        },
+        {
+            "id": "c_063_2",
+            "nev": "CSS formázás"
+        }
+    ],
+    "valaszok": [
+        {
+            "id": "v_063_1",
+            "szoveg": "p",
+            "csoport": "c_063_1"
+        },
+        {
+            "id": "v_063_2",
+            "szoveg": "ul",
+            "csoport": "c_063_1"
+        },
+        {
+            "id": "v_063_3",
+            "szoveg": "table",
+            "csoport": "c_063_1"
+        },
+        {
+            "id": "v_063_4",
+            "szoveg": "background-color",
+            "csoport": "c_063_2"
+        },
+        {
+            "id": "v_063_5",
+            "szoveg": "font-size",
+            "csoport": "c_063_2"
+        },
+        {
+            "id": "v_063_6",
+            "szoveg": "width",
+            "csoport": "c_063_2"
+        }
+    ]
+},{
+    "id": "q_064",
+    "oldal": 11,
+    "tipus": "valasztos",
+    "kerdes": "A weblapon több helyen is szeretne beállítani egyszerre 12px betűméretet, piros betűszínt és félkövér stílust. Az alábbiak közül melyikkel tudjuk ezt megoldani a lehető legkevesebb kóddal?",
+    "valaszok": [
+        {
+            "id": "v_064_1",
+            "szoveg": "Létrehozunk a CSS állományban egy osztályt, és a HTML dokumentumban mindig ezt az osztályt rendeljük hozzá a formázandó elemekhez.",
+            "helyes": true
+        },
+        {
+            "id": "v_064_2",
+            "szoveg": "Minden egyes ilyen elemhez létrehozunk egy azonosítót, és beállítjuk rá ugyanezeket a formázásokat.",
+            "helyes": false
+        },
+        {
+            "id": "v_064_3",
+            "szoveg": "Minden egyes ilyen elemnél szövegközi stílussal állítjuk be a formázásokat.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_065",
+    "oldal": 11,
+    "tipus": "tobbvalasztos",
+    "render_as_code": true,
+    "kerdes": "Jelölje be, hogy az alábbi kódban melyik sorokban van szintaktikai hiba!\n\nA vizsgált kódrészlet:\n\n1  let evenSum = 0;\n2  let evenCount = 0;\n3  for (let i = 1; i < 10, i++)\n4  {\n5      if i % 2 == 0\n6      {\n7          evenSum += i;\n8          evenCount++;\n9      }\n10 }\n11 console.log(evenSum / evenCount);",
+    "valaszok": [
+        {
+            "id": "v_065_1",
+            "szoveg": "1. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_2",
+            "szoveg": "2. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_3",
+            "szoveg": "3. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_065_4",
+            "szoveg": "4. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_5",
+            "szoveg": "5. sor",
+            "helyes": true
+        },
+        {
+            "id": "v_065_6",
+            "szoveg": "6. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_7",
+            "szoveg": "7. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_8",
+            "szoveg": "8. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_9",
+            "szoveg": "9. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_10",
+            "szoveg": "10. sor",
+            "helyes": false
+        },
+        {
+            "id": "v_065_11",
+            "szoveg": "11. sor",
+            "helyes": true
+        }
+    ]
+},{
+    "id": "q_066",
+    "oldal": 12,
+    "tipus": "valasztos",
+    "kerdes": "Szeretnénk JavaScript segítségével a „sample” azonosítóval ellátott elem háttérszínét módosítani pirosra. Az alábbiak közül melyik lehetéges ez?",
+    "valaszok": [
+        {
+            "id": "v_066_1",
+            "szoveg": "document.getElementById(\"#sample\").style.background-color=\"red\";",
+            "helyes": false
+        },
+        {
+            "id": "v_066_2",
+            "szoveg": "document.getElementById(\"#sample\").style.backgroundColor=\"red\";",
+            "helyes": false
+        },
+        {
+            "id": "v_066_3",
+            "szoveg": "document.getElementById(\"sample\").style.backgroundColor=\"red\";",
+            "helyes": true
+        }
+    ]
+},{
+    "id": "q_067",
+    "oldal": 12,
+    "tipus": "valasztos",
+    "kerdes": "Adott egy Games nevű osztály, amelyben van a gameList nevű lista. A listában a játékoknak a neve, ára, kiadási éve és fejlesztőjének neve van tárolva. Szeretnénk a játékokról statisztikát készíteni az alábbi adatokról: játékok átlagos ára, legutóbbi 2 évben kiadott játékok neve és száma, ingyenes játékok listája. Ezeknek az adatoknak a lekérdezésére többféle megoldás is szükséges lesz. A tiszta kód elvei alapján hogyan érdemes ezt megoldani?",
+    "valaszok": [
+        {
+            "id": "v_067_1",
+            "szoveg": "Mindegyik statisztikához készítünk egy rövid, néhány sorból álló metódust, és ezeket majd meghívjuk.",
+            "helyes": true
+        },
+        {
+            "id": "v_067_2",
+            "szoveg": "Egyetlen nagy, hosszú metódust készítünk, és majd ezt hívjuk meg.",
+            "helyes": false
+        },
+        {
+            "id": "v_067_3",
+            "szoveg": "Az osztály konstruktorában írjuk meg a statisztikákat.",
+            "helyes": false
+        },
+        {
+            "id": "v_067_4",
+            "szoveg": "Az osztályban nem írunk meg semmit, a főprogramban majd egymás után megírjuk a kódokat.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_068",
+    "oldal": 12,
+    "tipus": "csoportositas",
+    "kerdes": "Készíteni szeretne olyan alkalmazást, amelyben az iskola tanulóinak adatait lehet tárolni. Egyelőre még azt sem tudja, hogy milyen metódásokat is szeretne írni. Csoportosítsa az alábbi metódás neveket aszerint, hogy megfelelnek vagy nem felelnek meg a tiszta kód elveinek!\nVegye figyelembe, hogy az alkalmazást nemzetközi fejlesztőcsapat fogja készíteni!",
+    "csoportok": [
+        {
+            "id": "c_068_1",
+            "nev": "Megfelel a tiszta kódnak"
+        },
+        {
+            "id": "c_068_2",
+            "nev": "Nem felel meg a tiszta kódnak"
+        }
+    ],
+    "valaszok": [
+        {
+            "id": "v_068_1",
+            "szoveg": "getStudentById",
+            "csoport": "c_068_1"
+        },
+        {
+            "id": "v_068_2",
+            "szoveg": "classGradeAverage",
+            "csoport": "c_068_1"
+        },
+        {
+            "id": "v_068_3",
+            "szoveg": "hasLanguageExam",
+            "csoport": "c_068_1"
+        },
+        {
+            "id": "v_068_4",
+            "szoveg": "18YearsOldOrMore?",
+            "csoport": "c_068_2"
+        },
+        {
+            "id": "v_068_5",
+            "szoveg": "doSomething12345",
+            "csoport": "c_068_2"
+        },
+        {
+            "id": "v_068_6",
+            "szoveg": "iskolaiÁtlag",
+            "csoport": "c_068_2"
+        }
+    ]
+},{
+    "id": "q_069",
+    "oldal": 12,
+    "tipus": "valasztos",
+    "kerdes": "Adott az alábbi tábla. A táblában „Nagy István”, akinek az azonosítója „254” városa tévesen szerepel, a helyes érték „Budapest”. Hogyan lehet ezt SQL utasítással módosítani? Vegye figyelembe, hogy lehet több „Nagy István” is!",
+    "valaszok": [
+        {
+            "id": "v_069_1",
+            "szoveg": "UPDATE dolgozok WHERE id='254' SET varos='Budapest';",
+            "helyes": false
+        },
+        {
+            "id": "v_069_2",
+            "szoveg": "UPDATE dolgozok WHERE nev='Nagy István' SET varos='Budapest';",
+            "helyes": false
+        },
+        {
+            "id": "v_069_3",
+            "szoveg": "UPDATE dolgozok SET varos='Budapest' WHERE nev='Nagy István';",
+            "helyes": false
+        },
+        {
+            "id": "v_069_4",
+            "szoveg": "UPDATE dolgozok SET varos='Budapest' WHERE id='254';",
+            "helyes": true
+        }
+    ]
+},{
+    "id": "q_070",
+    "oldal": 12,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Mely állítások igazak az elsődleges kulcsra?",
+    "valaszok": [
+        {
+            "id": "v_070_1",
+            "szoveg": "Az elsődleges kulcs kizárólag csak egy mezőből állhat.",
+            "helyes": false
+        },
+        {
+            "id": "v_070_2",
+            "szoveg": "Lehetséges, hogy több mező kombinációja alkotja az elsődleges kulcsot.",
+            "helyes": true
+        },
+        {
+            "id": "v_070_3",
+            "szoveg": "Az elsődleges kulcs mező minden értéke egyedi.",
+            "helyes": true
+        },
+        {
+            "id": "v_070_4",
+            "szoveg": "Létre lehet hozni táblát elsődleges kulcs nélkül is, de nem ajánlott.",
+            "helyes": true
+        },
+        {
+            "id": "v_070_5",
+            "szoveg": "Az elsődleges kulcs csak számláló (autoincrement) jellegű lehet minden adatbáziskezelő rendszerben.",
+            "helyes": false
+        },
+        {
+            "id": "v_070_6",
+            "szoveg": "Az elsődleges kulcsot nem lehet megadni, azt a rendszer automatikusan választja.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_071",
+    "oldal": 13,
+    "tipus": "valasztos",
+    "kerdes": "Mely állítás igaz a mobil alkalmazások fejlesztésére?",
+    "valaszok": [
+        {
+            "id": "v_071_1",
+            "szoveg": "Android-ra írt alkalmazás mindenféle átfordítás nélkül közvetlenül futtatható iOS-en is minden esetben.",
+            "helyes": false
+        },
+        {
+            "id": "v_071_2",
+            "szoveg": "Mobil alkalmazások fejlesztésénél különösen fontos szerepe van a reszponzivitásnak, amelynek segítségével különböző képernyőméreteknél is futtatható lesz a program.",
+            "helyes": true
+        },
+        {
+            "id": "v_071_3",
+            "szoveg": "Különböző méretű képernyőknél minden esetben külön alkalmazást kell készíteni, a mobil alkalmazások fejlesztése nem támogatja a reszponzivitást.",
+            "helyes": false
+        },
+        {
+            "id": "v_071_4",
+            "szoveg": "Csak Windows operációs rendszeren van mobil alkalmazások fejlesztésére alkalmas fejlesztői környezet.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_072",
+    "oldal": 13,
+    "tipus": "valasztos",
+    "kerdes": "A webes alkalmazás frontend oldalán adatokat szeretne lekérdezni a backend adatbázisából. A backend részről adott egy URL, amelynek segítségével le lehet kérni az adatokat. Az alábbiak közül melyik a legjobb megoldás erre?",
+    "valaszok": [
+        {
+            "id": "v_072_1",
+            "szoveg": "A fetch használatával megadjuk az URL-t, és JSON formátumban visszakapjuk az adatot, amelyet a JavaScript át tudja alakítani a megfelelő adatszerkezetté.",
+            "helyes": true
+        },
+        {
+            "id": "v_072_2",
+            "szoveg": "A fetch használatával megadjuk az URL-t, és JSON formátumban visszakapjuk az adatot, de a JSON adat feldolgozását nekünk kell manuálisan, soronként megoldani.",
+            "helyes": false
+        },
+        {
+            "id": "v_072_3",
+            "szoveg": "Az URL címet beírjuk a böngészőbe, és a kapott adatot kijelöljük, másoljuk, és statikusan beillesztjük a kódba, minden alkalommal, majd úgy dolgozunk fel.",
+            "helyes": false
+        },
+        {
+            "id": "v_072_4",
+            "szoveg": "Az adatok feldolgozását csak a backend segítségével lehet elvégezni, a frontend csak ki tudja az eredményt listázni, mást nem tud.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_073",
+    "oldal": 13,
+    "tipus": "valasztos",
+    "kerdes": "Mely állítás igaz a frontend fejlesztésre?",
+    "valaszok": [
+        {
+            "id": "v_073_1",
+            "szoveg": "A frontend fejlesztő csak akkor tudja az alkalmazást fejleszteni, ha teljesen ismeri a backend kódját.",
+            "helyes": false
+        },
+        {
+            "id": "v_073_2",
+            "szoveg": "A frontend és a backend résznek mindig ugyanazon a webszerveren kell futnia.",
+            "helyes": false
+        },
+        {
+            "id": "v_073_3",
+            "szoveg": "A frontend és a backend nem feltétlenül szükséges, hogy ugyanarra a nyelvre épüljön. (Például lehetséges, hogy a frontend JavaScript, a backend Python alapú.)",
+            "helyes": true
+        },
+        {
+            "id": "v_073_4",
+            "szoveg": "A frontend fejlesztő csak akkor tudja elkezdeni a webalkalmazás fejlesztését, ha a backend teljesen működik.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_074",
+    "oldal": 13,
+    "tipus": "csoportositas",
+    "kerdes": "Csoportosítsa az alábbi feladatokat aszerint, hogy a backend vagy nem backend fejlesztésű feladat!",
+    "csoportok": [
+        {
+            "id": "c_074_1",
+            "nev": "Backend fejlesztő feladata"
+        },
+        {
+            "id": "c_074_2",
+            "nev": "Nem a backend fejlesztő feladata"
+        }
+    ],
+    "valaszok": [
+        {
+            "id": "v_074_1",
+            "szoveg": "API végpontok megírása",
+            "csoport": "c_074_1"
+        },
+        {
+            "id": "v_074_2",
+            "szoveg": "Adatmodellek létrehozása",
+            "csoport": "c_074_1"
+        },
+        {
+            "id": "v_074_3",
+            "szoveg": "Reszponzív kinézetű weboldal létrehozása",
+            "csoport": "c_074_2"
+        },
+        {
+            "id": "v_074_4",
+            "szoveg": "Weboldal szerkezetének megírása",
+            "csoport": "c_074_2"
+        }
+    ]
+},{
+    "id": "q_075",
+    "oldal": 14,
+    "tipus": "valasztos",
+    "kerdes": "Adottak az alábbi mezők: name, age. Ezekhez a mezőkhöz 2 rekord tartozik, amelyekből egy 2 elemű objektumokból álló tömb lesz létrehozva. Hogyan néz ki az előbbi tömb JSON formátumban átalakítva?",
+    "valaszok": [
+        {
+            "id": "v_075_1",
+            "szoveg": "[ { \"name\": \"John Doe\", \"age\": \"24\" }, { \"name\": \"Jane Doe\", \"age\": \"20\" } ]",
+            "helyes": true
+        },
+        {
+            "id": "v_075_2",
+            "szoveg": "[ { \"name\": \"John Doe\", \"age\": \"24\" }, { \"name\": \"Jane Doe\", \"age\": \"20\" } ]",
+            "helyes": false
+        },
+        {
+            "id": "v_075_3",
+            "szoveg": "[ { \"name\": [\"John Doe\", \"Jane Doe\"], \"age\": [\"24\", \"20\"] } ]",
+            "helyes": false
+        },
+        {
+            "id": "v_075_4",
+            "szoveg": "[ { \"name\": \"John Doe\", \"age\": \"24\" }, { \"name\": \"Jane Doe\", \"age\": \"20\" } ]",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_076",
+    "oldal": 14,
+    "tipus": "valasztos",
+    "kerdes": "Mi a jó gyakorlat az osztályon belüli adatmezők létrehozására?",
+    "valaszok": [
+        {
+            "id": "v_076_1",
+            "szoveg": "Az adatmezőket private (vagy protected) módosítóval hozzuk létre, és megadunk publikus tulajdonságot (property) azokhoz az adatmezőkhöz, amelyeket szeretnénk, hogy kívülről elérjenek.",
+            "helyes": true
+        },
+        {
+            "id": "v_076_2",
+            "szoveg": "Az adatmezőket public módosítóval hozzuk létre, és megadunk private vagy protected tulajdonságot (property) azokhoz az adatmezőkhöz, amelyeket szeretnénk, hogy kívülről elérjenek.",
+            "helyes": false
+        },
+        {
+            "id": "v_076_3",
+            "szoveg": "Az adatmezőket minden további nélkül meg lehet adni publikusnak, soha nincs szükség tulajdonság (property) megadására.",
+            "helyes": false
+        },
+        {
+            "id": "v_076_4",
+            "szoveg": "Az adatmezőket a static módosító segítségével kell megadni minden esetben, más módosító megadása nem szükséges.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_077",
+    "oldal": 14,
+    "tipus": "parositas",
+    "kerdes": "Az alábbiakban OOP módszerrel kapcsolatos fogalmak láthatók. Melyik meghatározás illik rájuk?",
+    "valaszok": [
+        {
+            "id": "v_077_1",
+            "bal": "konstruktor",
+            "jobb": "Az osztály példányosításakor lefutó speciális metódus."
+        },
+        {
+            "id": "v_077_2",
+            "bal": "statikus adatmező",
+            "jobb": "Olyan adatmező az osztályban, amelynek az értéke minden példányban ugyanaz."
+        },
+        {
+            "id": "v_077_3",
+            "bal": "metódus túlterhelése",
+            "jobb": "Ugyanazt a nevű metódust több, különböző paraméterezéssel adjuk meg egymás mellett."
+        }
+    ]
+},{
+    "id": "q_078",
+    "oldal": 14,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Döntse el, hogy az alábbi mondatok igaz vagy hamis állítást tartalmaznak a CMS rendszerekkel kapcsolatban!",
+    "valaszok": [
+        {
+            "id": "v_078_1",
+            "szoveg": "Híroldalak készítésére teljes mértékben alkalmas.",
+            "helyes": true
+        },
+        {
+            "id": "v_078_2",
+            "szoveg": "Lehet több felhasználót is létrehozni, különféle jogosultságokkal.",
+            "helyes": true
+        },
+        {
+            "id": "v_078_3",
+            "szoveg": "A webes kinézetre általában megadott sablonnal, nem szükséges CSS tudás hozzá.",
+            "helyes": true
+        },
+        {
+            "id": "v_078_4",
+            "szoveg": "Adminisztrációs felülettel nem rendelkezik, csak a programozó tud adatokat rögzíteni az oldalra kód segítségével.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_079",
+    "oldal": 15,
+    "tipus": "valasztos",
+    "kerdes": "A frontend rész elkészült, de a backend még nincs kész. Lehetséges-e tesztelni a frontend részt, és ha igen, hogyan?",
+    "valaszok": [
+        {
+            "id": "v_079_1",
+            "szoveg": "A mocking tesztelési módszerének segítségével tesztelni tudja a frontend részt a backend rész nélkül is, statikus adatok szimulálásával.",
+            "helyes": true
+        },
+        {
+            "id": "v_079_2",
+            "szoveg": "A derivációs tesztelési módszerének segítségével tesztelni tudja a frontend részt a backend rész nélkül is, véletlen adatok generálásával.",
+            "helyes": false
+        },
+        {
+            "id": "v_079_3",
+            "szoveg": "Nem lehetséges a tesztelés, csak ha a backend rész elkészült teljesen.",
+            "helyes": false
+        },
+        {
+            "id": "v_079_4",
+            "szoveg": "A tesztelés lehetséges, de külön ember tesztelje külön a frontend és a backend kódját.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_080",
+    "oldal": 15,
+    "tipus": "parositas",
+    "kerdes": "Keresse meg a megfelelő párokat!",
+    "valaszok": [
+        {
+            "id": "v_080_1",
+            "bal": "fehér dobozos tesztelés",
+            "jobb": "A tesztelés során ismert a forráskód."
+        },
+        {
+            "id": "v_080_2",
+            "bal": "fekete dobozos tesztelés",
+            "jobb": "A tesztelés során nem ismerik a forráskódot, csak a specifikációkat látjuk."
+        },
+        {
+            "id": "v_080_3",
+            "bal": "integrációs teszt",
+            "jobb": "Kettő vagy több komponens együttes tesztelése."
+        },
+        {
+            "id": "v_080_4",
+            "bal": "unit teszt",
+            "jobb": "Az adott egy kiválasztott egység (például eljárás, függvény) tesztelése."
+        }
+    ]
+},{
+    "id": "q_081",
+    "oldal": 15,
+    "tipus": "valasztos",
+    "kerdes": "A távoli GitHub repository klónozva lett a helyi gépre (git clone segítségével). A helyi repository-ban az egyik állományon változtatást végzett, majd kiadta a „git commit” utasítást a megfelelő paraméterekkel, de azt tapasztalja, hogy a távoli GitHub repository-ban nem látszódik a változás. Mi az oka ennek?",
+    "valaszok": [
+        {
+            "id": "v_081_1",
+            "szoveg": "Később meg fog jelenni, de várni kell ehhez néhány órát.",
+            "helyes": false
+        },
+        {
+            "id": "v_081_2",
+            "szoveg": "A távoli repository-ban csak akkor lesz érvényes a változtatás, ha a „git push” utasítást is kiadjuk.",
+            "helyes": true
+        },
+        {
+            "id": "v_081_3",
+            "szoveg": "Csak akkor fog látszódni, ha manuálisan töltjük fel az utasítást a GitHub repository weboldalán.",
+            "helyes": false
+        },
+        {
+            "id": "v_081_4",
+            "szoveg": "Ismét ki kell adni a git clone utasítást.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_082",
+    "oldal": 15,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Mely állítások igazak a Git és GitHub használatára? Jelölje meg a helyes válaszokat!",
+    "valaszok": [
+        {
+            "id": "v_082_1",
+            "szoveg": "Be lehet úgy állítani a GitHub repository-t, hogy bárki tudja olvasni a tartalmát regisztráció nélkül is.",
+            "helyes": true
+        },
+        {
+            "id": "v_082_2",
+            "szoveg": "A repository-t mindenképpen a helyi gépen kell először létrehozni, és csak utána lehet a távolin létrehozni.",
+            "helyes": false
+        },
+        {
+            "id": "v_082_3",
+            "szoveg": "Van olyan fejlesztői környezet, amely támogatja a GitHub repository-val szinkronizálást.",
+            "helyes": true
+        },
+        {
+            "id": "v_082_4",
+            "szoveg": "A GitHub felhasználói fiókon csak egy repository hozható létre, ha többet szeretnénk, akkor új fiókot kell regisztrálni.",
+            "helyes": false
+        },
+        {
+            "id": "v_082_5",
+            "szoveg": "A GitHub repository-ban csak azt látjuk, hogy milyen változtatások voltak, azt nem láthatjuk, hogy ki töltötte fel a változtatást.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_083",
+    "oldal": 15,
+    "tipus": "valasztos",
+    "kerdes": "A weboldalon felső menüjében szeretnénk olyan menüpontokat létrehozni, amelyekre kattintva az adott weblapon belüli részekre lehet ugrani. Mivel oldható ez meg?",
+    "valaszok": [
+        {
+            "id": "v_083_1",
+            "szoveg": "A hivatkozásnál elegendő a href után a keresendő szöveget beírni, és a böngésző automatikusan megkeresi a megfelelő szöveget, ahova ugrani kell.",
+            "helyes": false
+        },
+        {
+            "id": "v_083_2",
+            "szoveg": "Nem megoldható, hivatkozás segítségével csak külső weblapokra lehet ugrani, az adott weblapon belüli részekre nem.",
+            "helyes": false
+        },
+        {
+            "id": "v_083_3",
+            "szoveg": "Ahova szeretnénk ugrani, ott az azonosítót (id, például „teszt”) állítunk be a megfelelő elemhez, és a hivatkozásnál #teszt segítségével lehet a megfelelő helyre ugrani.",
+            "helyes": true
+        },
+        {
+            "id": "v_083_4",
+            "szoveg": "Ahova szeretnénk ugrani, ott osztályt (class, például „valami”) állítunk be a megfelelő elemhez, és a hivatkozásnál #valami segítségével lehet a megfelelő helyre ugrani.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_084",
+    "oldal": 16,
+    "tipus": "parositas",
+    "kerdes": "Párosítsa az alábbi betűformázásokat ahhoz a CSS formázáshoz, amellyel meg lehet azt oldani!",
+    "valaszok": [
+        {
+            "id": "v_084_1",
+            "bal": "félkövér betű",
+            "jobb": "font-weight"
+        },
+        {
+            "id": "v_084_2",
+            "bal": "dőlt betű",
+            "jobb": "font-style"
+        },
+        {
+            "id": "v_084_3",
+            "bal": "betűtípus",
+            "jobb": "font-family"
+        },
+        {
+            "id": "v_084_4",
+            "bal": "kiskapitális betű",
+            "jobb": "font-variant"
+        }
+    ]
+},{
+    "id": "q_085",
+    "oldal": 16,
+    "tipus": "valasztos",
+    "render_as_code": true,
+    "kerdes": "Adott a 'result' azonosítóval ellátott DIV elem. Az alábbi JS kód mit fog kiírni ennek a DIV elemnek a belsejébe?\n\n```javascript\nconst n = 10;\ndocument.getElementById(\"result\").innerHTML = \"\";\nfor (let i = 1; i <= n/2; i++) {\n    if (n%i == 0)\n        document.getElementById(\"result\").innerHTML += i + \", \";\n}\ndocument.getElementById(\"result\").innerHTML += n;\n```",
+    "valaszok": [
+        {
+            "id": "v_085_1",
+            "szoveg": "1,2,10",
+            "helyes": false
+        },
+        {
+            "id": "v_085_2",
+            "szoveg": "1,2,5",
+            "helyes": false
+        },
+        {
+            "id": "v_085_3",
+            "szoveg": "1,2,5,10",
+            "helyes": true
+        },
+        {
+            "id": "v_085_4",
+            "szoveg": "1,2",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_086",
+    "oldal": 16,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Mely állítások igazak a JavaScript Array (tömb) megvalósítására?",
+    "valaszok": [
+        {
+            "id": "v_086_1",
+            "szoveg": "A hagyományos tömbbel ellentétben itt az elemek száma változhat futási időben.",
+            "helyes": true
+        },
+        {
+            "id": "v_086_2",
+            "szoveg": "A tömb elemeinek értékét nem lehet módosítani.",
+            "helyes": false
+        },
+        {
+            "id": "v_086_3",
+            "szoveg": "Kizárólag számok tárolhatók benne, más típusú adatok nem.",
+            "helyes": false
+        },
+        {
+            "id": "v_086_4",
+            "szoveg": "Nemcsak üres tömböt lehet deklarálni, a deklarációnál megadható a tömb elemeinek kezdőértékei.",
+            "helyes": true
+        },
+        {
+            "id": "v_086_5",
+            "szoveg": "Az elemekre kerek zárójel ([]) segítségével tudunk hivatkozni.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_087",
+    "oldal": 16,
+    "tipus": "valasztos",
+    "kerdes": "Online játékot fejleszt nemzetközi piacra, amelyben a játékbeli valutának van felső határa. Ezt szeretné eltárolni konstans értékként a program kódjában. Az alábbiak közül mely azonosító felel meg a leginkább a tiszta kód elvárásainak?",
+    "valaszok": [
+        {
+            "id": "v_087_1",
+            "szoveg": "maxCurrency",
+            "helyes": true
+        },
+        {
+            "id": "v_087_2",
+            "szoveg": "n //This is the max currency",
+            "helyes": false
+        },
+        {
+            "id": "v_087_3",
+            "szoveg": "maximalisValuta",
+            "helyes": false
+        },
+        {
+            "id": "v_087_4",
+            "szoveg": "!maxCurrency!",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_088",
+    "oldal": 16,
+    "tipus": "valasztos",
+    "kerdes": "Adott a User osztály, amelyet felhasználók 10 adatának tárolására használ. Szeretne olyan metódust írni egy másik osztályban, amely a User bizonyos adatait kiírja. A metódus paraméterébe hogyan érdemes adatokat a User osztályban lévő adatokra tiszta kód elveit figyelembe véve, hogy a lehető legáttekinthetőbb legyen?",
+    "valaszok": [
+        {
+            "id": "v_088_1",
+            "szoveg": "A metódus paraméterébe mind a 10 adatot adjuk egyesével, és a végén a teljes User objektum példányt is.",
+            "helyes": false
+        },
+        {
+            "id": "v_088_2",
+            "szoveg": "A metódus paraméterébe csak a User objektum példányát adjuk át.",
+            "helyes": true
+        },
+        {
+            "id": "v_088_3",
+            "szoveg": "A metódus paraméterébe nem adunk át semmit, hanem a metóduson belül elérünk egy globális változót, és azon keresztül férünk hozzá a User objektumhoz.",
+            "helyes": false
+        },
+        {
+            "id": "v_088_4",
+            "szoveg": "A metódus paraméterébe mind a 10 adatot adjuk egyesével.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_089",
+    "oldal": 16,
+    "tipus": "valasztos",
+    "kerdes": "Adott a Jatekosok nevű tábla, amelyben az egyik mező a „nev”. Hogyan lehet „Minta József” játékos adatait törölni a táblából?",
+    "valaszok": [
+        {
+            "id": "v_089_1",
+            "szoveg": "REMOVE FROM Jatekosok WHERE nev=\"Minta József\";",
+            "helyes": false
+        },
+        {
+            "id": "v_089_2",
+            "szoveg": "DELETE Jatekosok WHERE nev=\"Minta József\";",
+            "helyes": false
+        },
+        {
+            "id": "v_089_3",
+            "szoveg": "DELETE nev FROM Jatekosok WHERE nev=\"Minta József\";",
+            "helyes": false
+        },
+        {
+            "id": "v_089_4",
+            "szoveg": "DELETE FROM Jatekosok WHERE nev=\"Minta József\";",
+            "helyes": true
+        }
+    ]
+},{
+    "id": "q_090",
+    "oldal": 17,
+    "tipus": "parositas",
+    "kerdes": "Egészítse ki a mondatokat!\n\nAz adatbázis-kezelő rendszerekben azt a jelenséget, amikor többszörösen tárolunk feleslegesen adatot, {1} nevezzük. Ennek csökkentésére irányuló eljárást úgy nevezzük, hogy {2}.",
+    "valaszok": [
+        {
+            "id": "v_090_1",
+            "bal": "{1}",
+            "jobb": "redundanciának"
+        },
+        {
+            "id": "v_090_2",
+            "bal": "{2}",
+            "jobb": "normalizálás"
+        }
+    ]
+},{
+    "id": "q_091",
+    "oldal": 17,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Készített Android-ra alkalmazást, de közben kiderült, hogy igény van rá iOS-en is. Az alábbiak közül melyik állítás igaz?",
+    "valaszok": [
+        {
+            "id": "v_091_1",
+            "szoveg": "Az alkalmazás fejlesztéséhez nem feltétlenül szükséges az elejétől kezdeni, de szükséges kiegészíteni a kódot, hogy működjön iOS-en is.",
+            "helyes": true
+        },
+        {
+            "id": "v_091_2",
+            "szoveg": "Minden esetben futtatható az Android-ra írt alkalmazás iOS-en is.",
+            "helyes": false
+        },
+        {
+            "id": "v_091_3",
+            "szoveg": "Semmiképpen nem lehetséges átírni, a fejlesztést teljesen az elejétől kell kezdeni.",
+            "helyes": false
+        },
+        {
+            "id": "v_091_4",
+            "szoveg": "Az alkalmazás átírható, azonban más fejlesztési környezet kell hozzá, mint amiben készült, olyan környezet, ami egyaránt támogatja az Android-ot és iOS-t is.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_092",
+    "oldal": 17,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Adott egy API elérési útja, amelyből fetch segítségével szeretne GET kéréssel lekérni adatokat. Mely állítások igazak általánosságban?",
+    "valaszok": [
+        {
+            "id": "v_092_1",
+            "szoveg": "Minden esetben lekérhetők az adatok mindenféle külön lépés nélkül.",
+            "helyes": false
+        },
+        {
+            "id": "v_092_2",
+            "szoveg": "Az adatok legtöbb esetben lekérhetők, azonban akadályokba ütközhet a CORS beállítása vagy az API kulcs hiánya.",
+            "helyes": true
+        },
+        {
+            "id": "v_092_3",
+            "szoveg": "Az API kérés minden esetben sikeres, azonban mindig szükséges API kulcs hozzá.",
+            "helyes": false
+        },
+        {
+            "id": "v_092_4",
+            "szoveg": "Előfordulhat, hogy az API kérések számát korlátozza a rendszer.",
+            "helyes": true
+        },
+        {
+            "id": "v_092_5",
+            "szoveg": "Az API kérést csak szerver oldalon lehet megoldani, kliens oldalon nem.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_093",
+    "oldal": 17,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Döntse el, hogy az alábbi mondatok igaz vagy hamis állítást tartalmaznak a Frontend webfejlesztéssel kapcsolatban!",
+    "valaszok": [
+        {
+            "id": "v_093_1",
+            "szoveg": "A Frontend fejlesztő anélkül is tud dolgozni a weboldalon, hogy a Backend kódját ismerné.",
+            "helyes": true
+        },
+        {
+            "id": "v_093_2",
+            "szoveg": "A JavaScriptet lehet Frontend készítésére szolgáló keretrendszer.",
+            "helyes": true
+        },
+        {
+            "id": "v_093_3",
+            "szoveg": "Ameddig a Backend rész fejlesztése kész nincs, a Frontend rész nem kezdhető el.",
+            "helyes": false
+        },
+        {
+            "id": "v_093_4",
+            "szoveg": "A weboldal Frontend és Backend része minden esetben teljesen szétválik.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_094",
+    "oldal": 17,
+    "tipus": "valasztos",
+    "kerdes": "Az egyik online játékterjesztő rendszerben adatbázisban vannak a játékok adatai tárolva. A weblap Frontend részénél többször van arra szükség, hogy adott évhez kötötten keressen játékokat. A Backend részén ilmi szeretne API végpontot, amely segíti ennek megoldását. Hogyan lehetne ezt a legcélszerűbben megoldani?",
+    "valaszok": [
+        {
+            "id": "v_094_1",
+            "szoveg": "A végpont minden esetben a teljes adatbázis tartalmát adja vissza végpontként, és majd pl. JavaScript segítségével ki lehet az adatokat választani.",
+            "helyes": false
+        },
+        {
+            "id": "v_094_2",
+            "szoveg": "Az évszámot paraméterezve írja meg, így az API kérésnél már csak az kiválasztott játékok kerülnek visszaadásra.",
+            "helyes": true
+        },
+        {
+            "id": "v_094_3",
+            "szoveg": "Minden egyes keresésnél a Backend fejlesztése külön API végpontot készít az évszámhoz.",
+            "helyes": false
+        },
+        {
+            "id": "v_094_4",
+            "szoveg": "Nem megoldható, a Backend fejlesztő minden esetben lekéri az adatokat, és email-ben adja ki a visszaadott JSON adatot.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_095",
+    "oldal": 17,
+    "tipus": "valasztos",
+    "kerdes": "Mi az általában megszokott módszer adatbázis kezelésére a modern Backend fejlesztői környezeteknél?",
+    "valaszok": [
+        {
+            "id": "v_095_1",
+            "szoveg": "Minden esetben kötelező SQL utasításokat futtatni, és csak így férhetünk hozzá az adatokhoz.",
+            "helyes": false
+        },
+        {
+            "id": "v_095_2",
+            "szoveg": "Az adatbázis tárolva, csak txt állományokban van az adatok tárolva.",
+            "helyes": false
+        },
+        {
+            "id": "v_095_3",
+            "szoveg": "Az ORM segítségével az adatbázist a Backend rendszerek osztályokkal képezi le, és így a kódban objektumok módosításával végezhetők az adatbázis műveletek.",
+            "helyes": true
+        },
+        {
+            "id": "v_095_4",
+            "szoveg": "Az adatbázis tárolása nem a Backend, hanem a Frontend feladata.",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_096",
+    "oldal": 18,
+    "tipus": "parositas",
+    "kerdes": "Egészítse ki a mondatokat!\n\nAzt a folyamatot, amikor az osztályból egy objektum példányt készítünk, úgy nevezzük, hogy {1}. Amikor lefut ez a művelet, akkor az a kitüntetett metódus, ami először fut le, úgy nevezzük, hogy {2}.",
+    "valaszok": [
+        {
+            "id": "v_096_1",
+            "bal": "{1}",
+            "jobb": "példányosítás"
+        },
+        {
+            "id": "v_096_2",
+            "bal": "{2}",
+            "jobb": "konstruktor"
+        }
+    ]
+},{
+    "id": "q_097",
+    "oldal": 18,
+    "tipus": "valasztos",
+    "kerdes": "Milyen módosítót kell írni C# vagy Java nyelvben olyan metódus elé, amelyet azt szeretnénk, hogy bárhol elérhető legyen, akár az osztályon kívül is?",
+    "valaszok": [
+        {
+            "id": "v_097_1",
+            "szoveg": "public",
+            "helyes": true
+        },
+        {
+            "id": "v_097_2",
+            "szoveg": "protected",
+            "helyes": false
+        },
+        {
+            "id": "v_097_3",
+            "szoveg": "static",
+            "helyes": false
+        },
+        {
+            "id": "v_097_4",
+            "szoveg": "include",
+            "helyes": false
+        }
+    ]
+},{
+    "id": "q_098",
+    "oldal": 18,
+    "tipus": "valasztos",
+    "kerdes": "Mi a CMS (tartalomkezelő) rendszer lényege?",
+    "valaszok": [
+        {
+            "id": "v_098_1",
+            "szoveg": "Szülői felügyelet alkalmazás.",
+            "helyes": false
+        },
+        {
+            "id": "v_098_2",
+            "szoveg": "Leíró nyelv, amellyel a weblap formázását lehet megadni.",
+            "helyes": false
+        },
+        {
+            "id": "v_098_3",
+            "szoveg": "Asztali alkalmazás fejlesztésére szolgáló programozási környezet.",
+            "helyes": false
+        },
+        {
+            "id": "v_098_4",
+            "szoveg": "A segítségével a weblapot olyan felhasználók is tudják szerkeszteni, akiknek nincs webfejlesztési és programozási tapasztalata.",
+            "helyes": true
+        }
+    ]
+},{
+    "id": "q_099",
+    "oldal": 18,
+    "tipus": "sorrend",
+    "kerdes": "Állítsa sorrendbe az alábbi 4 tesztelési technikát a V-modell szerinti sorrend alapján!",
+    "valaszok": [
+        {
+            "id": "v_099_1",
+            "szoveg": "Komponens teszt (például Unit teszt)"
+        },
+        {
+            "id": "v_099_2",
+            "szoveg": "Integrációs teszt"
+        },
+        {
+            "id": "v_099_3",
+            "szoveg": "Rendszerteszt"
+        },
+        {
+            "id": "v_099_4",
+            "szoveg": "Felhasználói átvételi teszt"
+        }
+    ]
+},{
+    "id": "q_100",
+    "oldal": 18,
+    "tipus": "valasztos",
+    "kerdes": "Hogyan nevezzük azt a tesztelési módszert, amikor ismerjük a forráskódot is?",
+    "valaszok": [
+        {
+            "id": "v_100_1",
+            "szoveg": "Fehér dobozos tesztelés.",
+            "helyes": true
+        },
+        {
+            "id": "v_100_2",
+            "szoveg": "Fekete dobozos tesztelés.",
+            "helyes": false
+        },
+        {
+            "id": "v_100_3",
+            "szoveg": "Funkcionális tesztelés.",
+            "helyes": false
+        },
+        {
+            "id": "v_100_4",
+            "szoveg": "Fizikai tesztelés.",
+            "helyes": false
+        }
+    ]
+}
+    ]
