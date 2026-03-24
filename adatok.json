@@ -2242,7 +2242,7 @@
     "valaszok": [
         {
             "id": "v_075_1",
-            "szoveg": "[ { \"name\": \"John Doe\", \"age\": \"24\" }, { \"name\": \"Jane Doe\", \"age\": \"20\" } ]",
+            "szoveg": "[ { \"name\": \"John Doe\", \"age\": 24 }, { \"name\": \"Jane Doe\", \"age\": 20 } ]",
             "helyes": true
         },
         {
@@ -2252,12 +2252,12 @@
         },
         {
             "id": "v_075_3",
-            "szoveg": "[ { \"name\": [\"John Doe\", \"Jane Doe\"], \"age\": [\"24\", \"20\"] } ]",
+            "szoveg": "[ { \"name\": [\"John Doe\", \"Jane Doe\"], \"age\": [24, 20] } ]",
             "helyes": false
         },
         {
             "id": "v_075_4",
-            "szoveg": "[ { \"name\": \"John Doe\", \"age\": \"24\" }, { \"name\": \"Jane Doe\", \"age\": \"20\" } ]",
+            "szoveg": "[ { \"name\": \"John Doe\" \"age\": 24 }, { \"name\": \"Jane Doe\", \"age\": 20 } ]",
             "helyes": false
         }
     ]

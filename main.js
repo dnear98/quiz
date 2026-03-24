@@ -139,7 +139,7 @@ function getCorrectAnswerText(q) {
     }
 
     if (q.tipus === "sorrend") {
-        return q.valaszok
+        return [...q.valaszok] 
             .sort((a, b) => a.helyes - b.helyes)
             .map(v => escapeHTML(v.szoveg))
             .join("<br>");
