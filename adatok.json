@@ -399,6 +399,16 @@
                     "id": "v_014_2",
                     "szoveg": "Virtuális DOM-ot használ.",
                     "helyes": true
+                },
+                {
+                    "id": "V_014_3",
+                    "szoveg": "A React egy teljes körű backend keretrendszer.",
+                    "helyes": false
+                },
+                {
+                    "id": "V_014_4",
+                    "szoveg": "A React csak mobilalkalmazások fejlesztésére használható.",
+                    "helyes": false
                 }
             ]
         },
