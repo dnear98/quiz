@@ -778,6 +778,16 @@
                     "id": "v_028_2",
                     "szoveg": "private void AddStudent(string name, string class, double average){…};",
                     "helyes": false
+                },
+                {
+                    "id": "v_028_3",
+                    "szoveg": "private void AddStudent(string name){…};",
+                    "helyes": false
+                },
+                {
+                    "id": "v_028_4",
+                    "szoveg": "private void AddStudent(string name, int age, bool active){…};",
+                    "helyes": false
                 }
             ]
         },
