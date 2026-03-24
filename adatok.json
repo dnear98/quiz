@@ -1286,7 +1286,7 @@
     "id": "q_044",
     "oldal": 7,
     "tipus": "valasztos",
-    "kerdes": "Legyen adva a „sample” azonosítójú elem. Az alábbiak közül melyikkel tudunk hivatkozni a sample azonosítójú elemen belül az összes bekezdésre (p) CSS-en belül?",
+    "kerdes": "Legyen adva a „sample” azonosítójú elem. Az alábbiak közül melyikkel tudunk hivatkozni a sample azonosítójú elemen belül az összes bekezdésre (div) CSS-en belül?",
     "valaszok": [
         {
             "id": "v_044_1",
