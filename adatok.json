@@ -129,23 +129,23 @@
             "valaszok": [
                 {
                     "id": "v_005_1",
-                    "bal": "Math.sqrt",
-                    "jobb": "Egy szám négyzetgyökét adja vissza."
+                    "bal": "Math.floor",
+                    "jobb": "A legközelebbi egészre kerekít."
                 },
                 {
                     "id": "v_005_2",
-                    "bal": "Math.pow",
+                    "bal": "Math.sqrt",
                     "jobb": "Hatványértéket ad vissza."
                 },
                 {
                     "id": "v_005_3",
                     "bal": "Math.round",
-                    "jobb": "A legközelebbi egészre kerekít."
+                    "jobb": "Lefelé kerekít a legközelebbi egészre."
                 },
                 {
                     "id": "v_005_4",
-                    "bal": "Math.floor",
-                    "jobb": "Lefelé kerekít a legközelebbi egészre."
+                    "bal": "Math.pow",
+                    "jobb": "Egy szám négyzetgyökét adja vissza."
                 }
             ]
         },
