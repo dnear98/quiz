@@ -1933,7 +1933,7 @@
     "oldal": 11,
     "tipus": "tobbvalasztos",
     "render_as_code": true,
-    "kerdes": "Jelölje be, hogy az alábbi kódban melyik sorokban van szintaktikai hiba!\n\nA vizsgált kódrészlet:\n\n1  let evenSum = 0;\n2  let evenCount = 0;\n3  for (let i = 1; i < 10, i++)\n4  {\n5      if i % 2 == 0\n6      {\n7          evenSum += i;\n8          evenCount++;\n9      }\n10 }\n11 console.log(evenSum / evenCount);",
+    "kerdes": "Jelölje be, hogy az alábbi kódban melyik sorokban van szintaktikai hiba!\n\nA vizsgált kódrészlet:\n\n1  let evenSum = 0;\n2  let evenCount = 0;\n3  for (let i = 1; i < 10, i++)\n4  {\n5      if i % 2 == 0\n6      {\n7          evenSum += i;\n8          evenCount++;\n9      }\n10 }\n11 console.log evenSum / evenCount;",
     "valaszok": [
         {
             "id": "v_065_1",
