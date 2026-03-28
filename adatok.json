@@ -68,23 +68,23 @@
     "valaszok": [
         {
             "id": "v_003_1",
-            "bal": "elem kijelölő",
+            "bal": "osztály kijelölő",
             "jobb": "td { meghatározás(ok) }"
         },
         {
             "id": "v_003_2",
-            "bal": "csoportos kijelölő",
-            "jobb": "th, img, span { meghatározás(ok) }"
-        },
-        {
-            "id": "v_003_3",
-            "bal": "azonosító kijelölő",
+            "bal": "elem kijelölő",
             "jobb": "#fejlec { meghatározás(ok) }"
         },
         {
-            "id": "v_003_4",
-            "bal": "osztály kijelölő",
+            "id": "v_003_3",
+            "bal": "csoportos kijelölő",
             "jobb": ".red-button { meghatározás(ok) }"
+        },
+        {
+            "id": "v_003_4",
+            "bal": "azonosító kijelölő",
+            "jobb": "th, img, span { meghatározás(ok) }"
         }
     ]
 },
