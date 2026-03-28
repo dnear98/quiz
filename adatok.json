@@ -361,29 +361,44 @@
                 }
             ]
         },
+{
+    "id": "q_013",
+    "oldal": 4,
+    "tipus": "tobbvalasztos",
+    "kerdes": "Melyik állítás jellemzi az Angular keretrendszert?",
+    "valaszok": [
         {
-            "id": "q_013",
-            "oldal": 4,
-            "tipus": "tobbvalasztos",
-            "kerdes": "Melyik állítás jellemzi az Angular keretrendszert?",
-            "valaszok": [
-                {
-                    "id": "v_013_1",
-                    "szoveg": "Google fejlesztette ki és támogatja.",
-                    "helyes": true
-                },
-                {
-                    "id": "v_013_2",
-                    "szoveg": "TypeScript nyelvet használ.",
-                    "helyes": true
-                },
-                {
-                    "id": "v_013_3",
-                    "szoveg": "Egyirányú adatfolyam, de eseménykezelésnél kétirányú is lehet.",
-                    "helyes": true
-                }
-            ]
+            "id": "v_013_6",
+            "szoveg": "A komponensek Java nyelven íródnak.",
+            "helyes": false
         },
+        {
+            "id": "v_013_2",
+            "szoveg": "Elsősorban TypeScript nyelvet használ.",
+            "helyes": true
+        },
+        {
+            "id": "v_013_4",
+            "szoveg": "Virtual DOM‑ot használ a rendereléshez.",
+            "helyes": false
+        },
+        {
+            "id": "v_013_1",
+            "szoveg": "A Google fejleszti és támogatja.",
+            "helyes": true
+        },
+        {
+            "id": "v_013_5",
+            "szoveg": "A React könyvtárra épül.",
+            "helyes": false
+        },
+        {
+            "id": "v_013_3",
+            "szoveg": "Támogatja a kétirányú adatbindelést.",
+            "helyes": true
+        }
+    ]
+},
         {
             "id": "q_014",
             "oldal": 4,
