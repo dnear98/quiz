@@ -68,23 +68,23 @@
     "valaszok": [
         {
             "id": "v_003_1",
-            "bal": "osztály kijelölő",
+            "bal": "elem kijelölő",
             "jobb": "td { meghatározás(ok) }"
         },
         {
             "id": "v_003_2",
-            "bal": "elem kijelölő",
-            "jobb": "#fejlec { meghatározás(ok) }"
+            "bal": "csoportos kijelölő",
+            "jobb": "th, img, span { meghatározás(ok) }"
         },
         {
             "id": "v_003_3",
-            "bal": "csoportos kijelölő",
-            "jobb": ".red-button { meghatározás(ok) }"
+            "bal": "azonosító kijelölő",
+            "jobb": "#fejlec { meghatározás(ok) }"
         },
         {
             "id": "v_003_4",
-            "bal": "azonosító kijelölő",
-            "jobb": "th, img, span { meghatározás(ok) }"
+            "bal": "osztály kijelölő",
+            "jobb": ".red-button { meghatározás(ok) }"
         }
     ]
 },
@@ -129,23 +129,23 @@
             "valaszok": [
                 {
                     "id": "v_005_1",
-                    "bal": "Math.floor",
-                    "jobb": "A legközelebbi egészre kerekít."
+                    "bal": "Math.sqrt",
+                    "jobb": "Egy szám négyzetgyökét adja vissza."
                 },
                 {
                     "id": "v_005_2",
-                    "bal": "Math.sqrt",
+                    "bal": "Math.pow",
                     "jobb": "Hatványértéket ad vissza."
                 },
                 {
                     "id": "v_005_3",
                     "bal": "Math.round",
-                    "jobb": "Lefelé kerekít a legközelebbi egészre."
+                    "jobb": "A legközelebbi egészre kerekít."
                 },
                 {
                     "id": "v_005_4",
-                    "bal": "Math.pow",
-                    "jobb": "Egy szám négyzetgyökét adja vissza."
+                    "bal": "Math.floor",
+                    "jobb": "Lefelé kerekít a legközelebbi egészre."
                 }
             ]
         },
@@ -1466,23 +1466,23 @@
                 "valaszok": [
                     {
                         "id": "v_049_1",
-                        "bal": "DROP TABLE",
-                        "jobb": "A táblában lévő adatok módosítása."
+                        "bal": "DELETE",
+                        "jobb": "A táblában lévő adatok törlése."
                     },
                     {
                         "id": "v_049_2",
-                        "bal": "UPDATE",
+                        "bal": "DROP TABLE",
                         "jobb": "A tábla szerkezetének törlése."
                     },
                     {
                         "id": "v_049_3",
                         "bal": "ALTER TABLE",
-                        "jobb": "A táblában lévő adatok törlése."
+                        "jobb": "A tábla szerkezetének módosítása."
                     },
                     {
                         "id": "v_049_4",
-                        "bal": "DELETE",
-                        "jobb": "A tábla szerkezetének módosítása."
+                        "bal": "UPDATE",
+                        "jobb": "A táblában lévő adatok módosítása."
                     }
                 ]
             },
@@ -2520,22 +2520,22 @@
     "valaszok": [
         {
             "id": "v_084_1",
-            "bal": "kiskapitális betű",
-            "jobb": "font-style"
-        },
-        {
-            "id": "v_084_2",
             "bal": "félkövér betű",
-            "jobb": "font-family"
-        },
-        {
-            "id": "v_084_3",
-            "bal": "dőlt betű",
             "jobb": "font-weight"
         },
         {
-            "id": "v_084_4",
+            "id": "v_084_2",
+            "bal": "dőlt betű",
+            "jobb": "font-style"
+        },
+        {
+            "id": "v_084_3",
             "bal": "betűtípus",
+            "jobb": "font-family"
+        },
+        {
+            "id": "v_084_4",
+            "bal": "kiskapitális betű",
             "jobb": "font-variant"
         }
     ]
