@@ -1466,23 +1466,23 @@
                 "valaszok": [
                     {
                         "id": "v_049_1",
-                        "bal": "DELETE",
-                        "jobb": "A táblában lévő adatok törlése."
+                        "bal": "DROP TABLE",
+                        "jobb": "A táblában lévő adatok módosítása."
                     },
                     {
                         "id": "v_049_2",
-                        "bal": "DROP TABLE",
+                        "bal": "UPDATE",
                         "jobb": "A tábla szerkezetének törlése."
                     },
                     {
                         "id": "v_049_3",
                         "bal": "ALTER TABLE",
-                        "jobb": "A tábla szerkezetének módosítása."
+                        "jobb": "A táblában lévő adatok törlése."
                     },
                     {
                         "id": "v_049_4",
-                        "bal": "UPDATE",
-                        "jobb": "A táblában lévő adatok módosítása."
+                        "bal": "DELETE",
+                        "jobb": "A tábla szerkezetének módosítása."
                     }
                 ]
             },
