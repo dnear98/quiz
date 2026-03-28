@@ -2520,22 +2520,22 @@
     "valaszok": [
         {
             "id": "v_084_1",
-            "bal": "félkövér betű",
-            "jobb": "font-weight"
-        },
-        {
-            "id": "v_084_2",
-            "bal": "dőlt betű",
+            "bal": "kiskapitális betű",
             "jobb": "font-style"
         },
         {
-            "id": "v_084_3",
-            "bal": "betűtípus",
+            "id": "v_084_2",
+            "bal": "félkövér betű",
             "jobb": "font-family"
         },
         {
+            "id": "v_084_3",
+            "bal": "dőlt betű",
+            "jobb": "font-weight"
+        },
+        {
             "id": "v_084_4",
-            "bal": "kiskapitális betű",
+            "bal": "betűtípus",
             "jobb": "font-variant"
         }
     ]
