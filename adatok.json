@@ -1311,12 +1311,12 @@
         {
             "id": "v_044_2",
             "szoveg": ".sample div",
-            "helyes": false
+            "helyes": true
         },
         {
             "id": "v_044_3",
             "szoveg": "#sample div",
-            "helyes": true
+            "helyes": false
         },
         {
             "id": "v_044_4",
