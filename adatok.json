@@ -2916,19 +2916,23 @@
     "valaszok": [
         {
             "id": "v_099_1",
-            "szoveg": "Komponens teszt (például Unit teszt)"
+            "szoveg": "Komponens teszt (például Unit teszt)",
+            "helyes" : 1
         },
         {
             "id": "v_099_2",
-            "szoveg": "Integrációs teszt"
+            "szoveg": "Integrációs teszt",
+            "helyes": 2
         },
         {
             "id": "v_099_3",
-            "szoveg": "Rendszerteszt"
+            "szoveg": "Rendszerteszt",
+            "helyes": 3
         },
         {
             "id": "v_099_4",
-            "szoveg": "Felhasználói átvételi teszt"
+            "szoveg": "Felhasználói átvételi teszt",
+            "helyes": 4
         }
     ]
 },{
